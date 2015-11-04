@@ -28,7 +28,7 @@ GNU General Public License for more details.</code>
 <code>You should have received a copy of the GNU General Public License
 along with Drew's App Launcher.  If not, see <http://www.gnu.org/licenses/>.
 If you did not recieve a copy of "Drew's Modification Exception,"
-please visit <http://drews-apps.weebly.com/about></code>
+please visit <http://drews-apps.weebly.com/about> Note that these files should be in one file called LICENSE.</code>
 
 ## Note that for now I am only getting up-to-speed with GitHub hosting for my applications and will fix bugs and add new features as soon as I get settled in. It may be a while before there is documentation complete on here.
 
