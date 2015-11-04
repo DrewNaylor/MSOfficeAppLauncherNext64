@@ -1,7 +1,7 @@
 # Welcome to the repository for my App Launcher for Microsoft Office 2010!
 This is the 64-bit version. Read the file "LICENSE" in a text editor for the entire license.
 
-<code>Drew's MS Office App Launcher (32-bit) - Launch Office Apps Quickly!
+<code>Drew's MS Office App Launcher (64-bit) - Launch Office Apps Quickly!
 Copyright (C) 2013-2015  Drew Naylor
 Microsoft Office is copyright Microsoft Corp.
 (Note that the copyright years include the years left out by the hyphen.)</code>
