@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="NotifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="NotifyIcon1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD/////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////g4OD/4KCgv94eHj/9PT0/+Dg4P9qamr/iIiI/2Bg
+        YP/8/Pz/////////////////////////////////7u7u/6enp////////////zExMf+SkpL///////7+
+        /v//////cXFx//////////////////////////////////b29v+YmJj//////7Ozs/91dXX/////////
+        ////////v7+//5GRkf//////////////////////////////////////i4uL/4qKiv+bm5v/i4uL////
+        ////////xMTE//////9/f3/////////////////////////////////////////////MzMz//////5WV
+        lf//////1tbW//b29v//////hoaG///////////////////////////////////////T09P/////////
+        //+ZmZn/2dnZ//X19f///////////39/f/////////////////////////////j4+P/X19f/z8/P//z8
+        /P//////d3d3//////////////////////+MjIz//////////////////////9nZ2f/a2tr/5OTk//f3
+        9//i4uL//Pz8/4yMjP//////////////////////e3t7///////////////////////W1tb/4ODg/+Dg
+        4P/e3t7/a2tr/4WFhf88PDz/e3t7/7Kysv//////oKCg/9ra2v//////////////////////////////
+        ////////dnZ2///////4+Pj/n5+f/////////////////2hoaP//////////////////////////////
+        /////////////3Z2dv//////1NTU//f39//c3Nz/dXV1/2xsbP//////////////////////////////
+        ///////////////////7+/v/dXV1/4mJif96enr/tbW1////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="TextBox1.Text" xml:space="preserve">
+    <value>Drew's App Launcher for Microsoft Office 2010 ProPlus
+Version 2.6, Update 0
+Compiled for 64-bit systems with a 32-bit installation of Office 2010
+
+Copyright (C) 2013-2015 Drew Naylor
+This app allows you to get to your favorite Office 2010 ProPlus application very quickly.
+It can also clear up space on your desktop.
+I am not intending on infringing on Microsoft's copyrights, so this is only a shortcut application.
+
+App compiled on Saturday, October 31, 2015.
+
+Copyright notice: Office, Microsoft Office, Word, Excel, PowerPoint, and all related words (by MSFT) are Copyright [a long time ago]-[sometime in the future] Microsoft Corp. All Rights Reserved for Microsoft's copyrights.
+
+This application is licensed under the Gnu GPL v3+ and Drew's Modification Exception.</value>
+  </data>
+  <data name="UpdateHistoryTextBox.Text" xml:space="preserve">
+    <value>*Note: This Version History textbox has been
+depricated in favor of the buttons below for the 32-bit
+and 64-bit version history. This box will be removed in the future.
+
+
+
+
+What's New
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Version 2.5
+----------------------------------------
+Update 1: First version for 64-bit and 
+	32-bit to have non-
+	copyrighted icons. 
+	Some other improvements
+	and bug fixes as well.
+
+Update 0: Getting ready to add some
+	"secret" features
+
+Version 2.4
+----------------------------------------
+
+32-Bit and 64-Bit Editions:
+===============
+
+Update 3.1 Minor bug fixes.
+
+Update 3: Website link on About page      now works.
+
+Update 2 added some new features.
+
+64-Bit Edition:
+===============
+
+Update 3 changed some text in the	About page.
+Update 3 also added this column.</value>
+  </data>
+  <data name="TextBox2.Text" xml:space="preserve">
+    <value>--&gt; Some applications will open on the Taskbar while others will open on top.
+--&gt; This app was made for launching the default apps in Microsoft Office ProPlus 2010. Not all Office 2010 app shortcuts are included.
+--&gt; If this app has the word "Next" in the title bar, it is a beta version, which means some features may be broken.
+--&gt; If you didn't get a copy of the GPL v3 and Drew's Modification Exception in the download, please contact me through my main website below with your email address and I will send you a copy. I won't use your email address for any malicious purposes.
+</value>
+  </data>
+  <metadata name="StatusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>126, 17</value>
+  </metadata>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD/////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////X19f/pKSk/42Njf/Kysr/7Ozs////////////////////
+        ///w8PD/Z2dn/ygoKP8oKCj/PT09/8rKyv//////////////////////////////////////////////
+        ////////////////////////////////////////V1dX/xcXF/98fHz/kpKS/3x8fP8AAAD/paWl////
+        ////////VlZW/wAAAP+mpqb////////////Kysr/FhYW/7u7u//+/v7/////////////////////////
+        /////////////////////////////////////////////9fX1/8rKyv////////////+/v7/////////
+        //8UFBT/6enp/wAAAP+UlJT///////7+/v/////////////////n5+f/AAAA//7+/v//////////////
+        ////////////////////////////////////////////////////////yMjI/3p6ev//////////////
+        /////////////yUlJf8JCQn/4+Pj/////////////////////////////////8TExP9PT0//ysrK////
+        ///////////////////////////////////////////////////////////////////Hx8f/fHx8////
+        ///////////////////Hx8f/AAAA/9zc3P/+/v7////////////////////////////4+Pj/lZWV/6am
+        pv93d3f//////////////////////////////////////////////////////////////////////+zs
+        7P8AAAD/////////////////7u7u/wAAAP8BAQH//////////////////////////////////////52d
+        nf/x8fH/x8fH/3x8fP//////////////////////////////////////////////////////////////
+        /////////////2tra/8qKir/u7u7/729vf8ICAj/sbGx/ysrK///////////////////////////////
+        //+lpaX/6+vr///////r6+v/KCgo////////////////////////////////////////////////////
+        /////////////////////////////8jIyP93d3f/Tk5O/6urq///////aGho/8XFxf//////////////
+        ////////ysrK/8/Pz/////////////////8oKCj/////////////////////////////////////////
+        //////////////////////////////////////////////Pz8/+rq6v///////////94eHj/yMjI////
+        /////////////9DQ0P/Nzc3//////////////////////ygoKP//////////////////////////////
+        ////////////////////////////////////////////////////////nJyc/////////////////3h4
+        eP/IyMj////////////W1tb/zMzM////////////////////////////KCgo////////////////////
+        /////////////////////////////////////////////////////////////7m5uf/p6en/////////
+        ////////eHh4/8jIyP//////0dHR/8zMzP////////////////////////////////8oKCj/////////
+        ///////////////////////////////////////////////////////////////////o6Oj/xcXF////
+        //////////////////93d3f/y8vL/8fHx//b29v/////////////////////////////////19fX/z4+
+        Pv//////////////////////////////////////////////////////////////////////+/v7/6qq
+        qv///////////////////////////3p6ev+Kior/5OTk////////////////////////////////////
+        ///Kysr/enp6////////////////////////////////////////////////////////////3Nzc/9PT
+        0/+SkpL/x8fH/9nZ2f/x8fH////////////z8/P/VFRU/8TExP//////////////////////////////
+        /////////////46Ojv+Ojo7////////////////////////////////////////////9/f3/u7u7/7+/
+        v//o6Oj/qKio/+7u7v/y8vL/4+Pj//n5+f//////x8fH/83Nzf9XV1f/w8PD////////////////////
+        ////////////////////////aGho/8jIyP///////////////////////////////////////////7i4
+        uP///////////76+vv/t7e3////////////09PT/zc3N/8XFxf///////////yoqKv//////////////
+        //////////////////////////////////8AAAD/////////////////////////////////////////
+        ///9/f3/pKSk/83Nzf/Pz8//wcHB/8nJyf/Gxsb/x8fH/9PT0//+/v7/fX19/ycnJ/8DAwP/AAAA/ysr
+        K/8WFhb/FhYW/yEhIf/Q0ND/////////////////pKSk/1hYWP//////////////////////////////
+        /////////////////////////v7+//v7+//7+/v/////////////////ubm5/wAAAP9+fn7/////////
+        //8DAwP///////////////////////////////////////7+/v8AAAD/8PDw////////////////////
+        /////////////////////////////////////////////////////////////+rq6v8AAAD/9fX1////
+        ////////6+vr/ygoKP//////////////////////////////////////bGxs/35+fv//////////////
+        ////////////////////////////////////////////////////////////////////////yMjI/35+
+        fv/+/v7////////////MzMz/e3t7/////////////////////////////////6ioqP8SEhL/////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///IyMj/enp6/////////////////3d3d/+kpKT//////////////////////9vb2/9YWFj/EhIS////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////9jY2P8XFxf/8vLy////////////w8PD/+vr6///////29vb/3t7e/8AAAD/QkJC/6Ki
+        ov//////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////7m5uf8VFRX/FhYW/ygoKP8oKCj/Kioq/wAAAP9AQED/pqam/+zs
+        7P//////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+</root>
