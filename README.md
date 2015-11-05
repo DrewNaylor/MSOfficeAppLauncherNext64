@@ -59,7 +59,8 @@ If you want general information about this project, be sure to check the wiki on
 - After the Solution file is created, click the <code>Save All</code> to save your project.
 - Click <code>File>Add>Existing Project...</code> and navigate to where you cloned the repo earlier. Dig all the way down to ~~Bedrock~~ <code>MSOfficeAppLauncherNext64\MSOfficeAppLauncher</code> and open the file called "<code>MSOfficeAppLauncher64.vbproj</code>." 
 - If all goes well, the project should appear in the Visual Studio <code>Solution Explorer</code>.
-
+ 
+You'll be using this Solution file you just made to open the project. See the next paragraph for details.
 
 ## Why do I need to create a new Solution file? Why can't I just use the original file?
 
