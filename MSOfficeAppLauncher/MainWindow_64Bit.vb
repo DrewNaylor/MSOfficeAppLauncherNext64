@@ -115,7 +115,12 @@ Public Class Main
 
     'Open the version history - 32-bit
     Private Sub ThreeTwoBitHist_Click(sender As System.Object, e As System.EventArgs) Handles ThreeTwoBitHist.Click
-        HTML32BitVerHist.ShowDialog()
+        If My.Settings.changelogDisplayMode = True Then
+            Process.Start("http://drews-apps.weebly.com/3/feed")
+        Else
+            HTML32BitVerHist.ShowDialog()
+        End If
+
     End Sub
 
     'Open the version history - 64-bit
