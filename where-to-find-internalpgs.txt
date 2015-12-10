@@ -1,0 +1,3 @@
+*Use wordwrap!
+
+In this folder, navigate to "C\resources.drew_general\rss_feeds" and copy/paste the   "resources.drew_general" to drive C:\ to use the internal changelog pages. In the app launcher, open the Options window and uncheck the checkbox that says to use the browser, then hit save. Afterwards, open either of the changelogs in the About tab.
