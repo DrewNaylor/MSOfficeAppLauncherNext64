@@ -93,4 +93,10 @@ Public Class OptionsWindow64
     Private Sub OptionsWindow64_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         textboxOfficeDrive.Text = My.Settings.officeDriveLocation
     End Sub
+
+    Private Sub buttonClearDrive_Click(sender As System.Object, e As System.EventArgs) Handles buttonClearDrive.Click
+
+        'Clear the OfficeDrive textbox.
+        textboxOfficeDrive.Text = ""
+    End Sub
 End Class
