@@ -92,6 +92,15 @@ Public Class OptionsWindow64
     'When the Options window loads, pull up the user's settings.
     Private Sub OptionsWindow64_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         textboxOfficeDrive.Text = My.Settings.officeDriveLocation
+        checkboxChangelog.Checked = My.Settings.changelogDisplayMode
+
+
+        'Fill in the checkboxChangelog with the proper text.
+        If My.Settings.changelogDisplayMode = True Then
+            checkboxChangelog.Text = "Test"
+        Else
+            checkboxChangelog.Text = "No"
+        End If
     End Sub
 
     Private Sub buttonClearDrive_Click(sender As System.Object, e As System.EventArgs) Handles buttonClearDrive.Click
