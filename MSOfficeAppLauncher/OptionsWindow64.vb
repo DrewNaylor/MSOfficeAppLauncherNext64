@@ -99,4 +99,16 @@ Public Class OptionsWindow64
         'Clear the OfficeDrive textbox.
         textboxOfficeDrive.Text = ""
     End Sub
+
+    Private Sub checkboxChangelog_CheckedChanged(sender As System.Object, e As System.EventArgs) Handles checkboxChangelog.CheckedChanged
+
+    End Sub
+
+    Private Sub checkboxChangelog_Click(sender As Object, e As System.EventArgs) Handles checkboxChangelog.Click
+        If checkboxChangelog.Checked = True Then
+            checkboxChangelog.Text = "Open the changelogs in your default browser."
+        Else
+            checkboxChangelog.Text = "Use the internal page for displaying changelogs."
+        End If
+    End Sub
 End Class
