@@ -66,6 +66,8 @@ Partial Class OptionsWindow64
         'checkboxChangelog
         '
         Me.checkboxChangelog.AutoSize = True
+        Me.checkboxChangelog.Checked = True
+        Me.checkboxChangelog.CheckState = System.Windows.Forms.CheckState.Checked
         Me.checkboxChangelog.Location = New System.Drawing.Point(21, 78)
         Me.checkboxChangelog.Name = "checkboxChangelog"
         Me.checkboxChangelog.Size = New System.Drawing.Size(15, 14)

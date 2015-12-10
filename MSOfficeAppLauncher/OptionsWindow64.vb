@@ -70,9 +70,17 @@ Public Class OptionsWindow64
             textboxOfficeDrive.Text = "C"
 
         Else
-
             'Save the settings for the "Drive Selector" textbox and other settings if I implement them.
             My.Settings.officeDriveLocation = textboxOfficeDrive.Text
+
+            'Choose how to display the changelogs.
+            If checkboxChangelog.Checked = True Then
+                My.Settings.changelogDisplayMode = True
+            Else
+                My.Settings.changelogDisplayMode = False
+            End If
+
+            'Save settings.
             My.Settings.Save()
             My.Settings.Reload()
             MessageBox.Show("Settings saved.")
@@ -92,6 +100,7 @@ Public Class OptionsWindow64
     'When the Options window loads, pull up the user's settings.
     Private Sub OptionsWindow64_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         textboxOfficeDrive.Text = My.Settings.officeDriveLocation
+
         checkboxChangelog.Checked = My.Settings.changelogDisplayMode
 
 
@@ -115,9 +124,9 @@ Public Class OptionsWindow64
 
     Private Sub checkboxChangelog_Click(sender As Object, e As System.EventArgs) Handles checkboxChangelog.Click
         If checkboxChangelog.Checked = True Then
-            checkboxChangelog.Text = "Open the changelogs in your default browser."
+            My.Settings.changelogDisplayMode = True
         Else
-            checkboxChangelog.Text = "Use the internal page for displaying changelogs."
+            My.Settings.changelogDisplayMode = False
         End If
     End Sub
 End Class
