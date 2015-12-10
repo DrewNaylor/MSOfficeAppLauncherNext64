@@ -30,6 +30,7 @@ Partial Class OptionsWindow64
         Me.Label2 = New System.Windows.Forms.Label()
         Me.textboxOfficeDrive = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.buttonClearDrive = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.groupboxOfficeLocation.SuspendLayout()
         Me.SuspendLayout()
@@ -43,13 +44,14 @@ Partial Class OptionsWindow64
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(368, 210)
+        Me.Panel1.Size = New System.Drawing.Size(370, 304)
         Me.Panel1.TabIndex = 0
         '
         'buttonCancel
         '
         Me.buttonCancel.AccessibleName = "Cancel Button"
-        Me.buttonCancel.Location = New System.Drawing.Point(198, 178)
+        Me.buttonCancel.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.buttonCancel.Location = New System.Drawing.Point(200, 272)
         Me.buttonCancel.Name = "buttonCancel"
         Me.buttonCancel.Size = New System.Drawing.Size(75, 23)
         Me.buttonCancel.TabIndex = 3
@@ -59,7 +61,8 @@ Partial Class OptionsWindow64
         'buttonResetToDefaults
         '
         Me.buttonResetToDefaults.AccessibleName = "Restore Defaults Button"
-        Me.buttonResetToDefaults.Location = New System.Drawing.Point(12, 178)
+        Me.buttonResetToDefaults.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.buttonResetToDefaults.Location = New System.Drawing.Point(12, 272)
         Me.buttonResetToDefaults.Name = "buttonResetToDefaults"
         Me.buttonResetToDefaults.Size = New System.Drawing.Size(75, 23)
         Me.buttonResetToDefaults.TabIndex = 4
@@ -69,7 +72,8 @@ Partial Class OptionsWindow64
         'buttonSaveSettings
         '
         Me.buttonSaveSettings.AccessibleName = "Save Button"
-        Me.buttonSaveSettings.Location = New System.Drawing.Point(279, 178)
+        Me.buttonSaveSettings.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.buttonSaveSettings.Location = New System.Drawing.Point(281, 272)
         Me.buttonSaveSettings.Name = "buttonSaveSettings"
         Me.buttonSaveSettings.Size = New System.Drawing.Size(75, 23)
         Me.buttonSaveSettings.TabIndex = 2
@@ -78,12 +82,13 @@ Partial Class OptionsWindow64
         '
         'groupboxOfficeLocation
         '
+        Me.groupboxOfficeLocation.Controls.Add(Me.buttonClearDrive)
         Me.groupboxOfficeLocation.Controls.Add(Me.Label2)
         Me.groupboxOfficeLocation.Controls.Add(Me.textboxOfficeDrive)
         Me.groupboxOfficeLocation.Controls.Add(Me.Label1)
         Me.groupboxOfficeLocation.Location = New System.Drawing.Point(3, 3)
         Me.groupboxOfficeLocation.Name = "groupboxOfficeLocation"
-        Me.groupboxOfficeLocation.Size = New System.Drawing.Size(362, 128)
+        Me.groupboxOfficeLocation.Size = New System.Drawing.Size(362, 116)
         Me.groupboxOfficeLocation.TabIndex = 0
         Me.groupboxOfficeLocation.TabStop = False
         Me.groupboxOfficeLocation.Text = "Where is Microsoft Office located?"
@@ -123,11 +128,22 @@ Partial Class OptionsWindow64
         Me.Label1.TabIndex = 1
         Me.Label1.Text = ":\Program Files (X86)\Microsoft Office\Office14"
         '
+        'buttonClearDrive
+        '
+        Me.buttonClearDrive.AutoSize = True
+        Me.buttonClearDrive.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.buttonClearDrive.Location = New System.Drawing.Point(285, 76)
+        Me.buttonClearDrive.Name = "buttonClearDrive"
+        Me.buttonClearDrive.Size = New System.Drawing.Size(41, 23)
+        Me.buttonClearDrive.TabIndex = 3
+        Me.buttonClearDrive.Text = "Clear"
+        Me.buttonClearDrive.UseVisualStyleBackColor = True
+        '
         'OptionsWindow64
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(368, 210)
+        Me.ClientSize = New System.Drawing.Size(370, 304)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MaximizeBox = False
@@ -151,4 +167,5 @@ Partial Class OptionsWindow64
     Friend WithEvents buttonCancel As System.Windows.Forms.Button
     Friend WithEvents textboxOfficeDrive As System.Windows.Forms.TextBox
     Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents buttonClearDrive As System.Windows.Forms.Button
 End Class
