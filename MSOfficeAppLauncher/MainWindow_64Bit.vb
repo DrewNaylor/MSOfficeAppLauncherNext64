@@ -42,6 +42,9 @@ Public Class Main
         zSecretOptionsButton.Hide()
     End Sub
 
+#Region "Applications to launch."
+
+
     'Microsoft Access
     Private Sub Button1_Click_1(sender As System.Object, e As System.EventArgs) Handles Button1.Click
         Shell(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\MSACCESS.EXE")
@@ -111,6 +114,7 @@ Public Class Main
     Private Sub Button14_Click(sender As System.Object, e As System.EventArgs) Handles Button14.Click
         Shell(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\SETLANG.EXE")
     End Sub
+#End Region
 
 
     'Open the version history - 32-bit
@@ -126,7 +130,7 @@ Public Class Main
     'Open the version history - 64-bit
     Private Sub SixFourVerHistButton_Click(sender As System.Object, e As System.EventArgs) Handles SixFourVerHistButton.Click
         If My.Settings.changelogDisplayMode = True Then
-            Process.Start("http://drews-apps.weebly.com/3/feed")
+            Process.Start("http://drews-apps.weebly.com/2/feed")
         Else
             HTML64BitVerHist.ShowDialog()
         End If
