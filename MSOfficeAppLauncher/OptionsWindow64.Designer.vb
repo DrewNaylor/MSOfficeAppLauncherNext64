@@ -49,7 +49,7 @@ Partial Class OptionsWindow64
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(370, 304)
+        Me.Panel1.Size = New System.Drawing.Size(370, 292)
         Me.Panel1.TabIndex = 0
         '
         'groupboxChangelogStyle
@@ -58,7 +58,7 @@ Partial Class OptionsWindow64
         Me.groupboxChangelogStyle.Controls.Add(Me.Label3)
         Me.groupboxChangelogStyle.Location = New System.Drawing.Point(4, 126)
         Me.groupboxChangelogStyle.Name = "groupboxChangelogStyle"
-        Me.groupboxChangelogStyle.Size = New System.Drawing.Size(361, 140)
+        Me.groupboxChangelogStyle.Size = New System.Drawing.Size(361, 107)
         Me.groupboxChangelogStyle.TabIndex = 0
         Me.groupboxChangelogStyle.TabStop = False
         Me.groupboxChangelogStyle.Text = "How should changelogs be presented?"
@@ -88,7 +88,7 @@ Partial Class OptionsWindow64
         '
         Me.buttonCancel.AccessibleName = "Cancel Button"
         Me.buttonCancel.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.buttonCancel.Location = New System.Drawing.Point(200, 272)
+        Me.buttonCancel.Location = New System.Drawing.Point(200, 260)
         Me.buttonCancel.Name = "buttonCancel"
         Me.buttonCancel.Size = New System.Drawing.Size(75, 23)
         Me.buttonCancel.TabIndex = 98
@@ -99,7 +99,7 @@ Partial Class OptionsWindow64
         '
         Me.buttonResetToDefaults.AccessibleName = "Restore Defaults Button"
         Me.buttonResetToDefaults.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.buttonResetToDefaults.Location = New System.Drawing.Point(12, 272)
+        Me.buttonResetToDefaults.Location = New System.Drawing.Point(12, 260)
         Me.buttonResetToDefaults.Name = "buttonResetToDefaults"
         Me.buttonResetToDefaults.Size = New System.Drawing.Size(75, 23)
         Me.buttonResetToDefaults.TabIndex = 97
@@ -110,7 +110,7 @@ Partial Class OptionsWindow64
         '
         Me.buttonSaveSettings.AccessibleName = "Save Button"
         Me.buttonSaveSettings.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.buttonSaveSettings.Location = New System.Drawing.Point(281, 272)
+        Me.buttonSaveSettings.Location = New System.Drawing.Point(281, 260)
         Me.buttonSaveSettings.Name = "buttonSaveSettings"
         Me.buttonSaveSettings.Size = New System.Drawing.Size(75, 23)
         Me.buttonSaveSettings.TabIndex = 99
@@ -180,7 +180,7 @@ Partial Class OptionsWindow64
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(370, 304)
+        Me.ClientSize = New System.Drawing.Size(370, 292)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.MaximizeBox = False

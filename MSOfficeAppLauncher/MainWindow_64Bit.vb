@@ -125,7 +125,11 @@ Public Class Main
 
     'Open the version history - 64-bit
     Private Sub SixFourVerHistButton_Click(sender As System.Object, e As System.EventArgs) Handles SixFourVerHistButton.Click
-        HTML64BitVerHist.ShowDialog()
+        If My.Settings.changelogDisplayMode = True Then
+            Process.Start("http://drews-apps.weebly.com/3/feed")
+        Else
+            HTML64BitVerHist.ShowDialog()
+        End If
     End Sub
 
     'Open the Options window.
@@ -135,12 +139,12 @@ Public Class Main
 
     'Open my main website.
     Private Sub LinkLabel1_LinkClicked(sender As System.Object, e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
-        System.Diagnostics.Process.Start("http://www.drewnayloremulation.weebly.com/")
+        Process.Start("http://www.drewnayloremulation.weebly.com/")
     End Sub
 
     'Open my application website.
     Private Sub LinkLabel2_LinkClicked(sender As System.Object, e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel2.LinkClicked
-        System.Diagnostics.Process.Start("http://www.drews-apps.weebly.com")
+        Process.Start("http://www.drews-apps.weebly.com")
     End Sub
 
 
