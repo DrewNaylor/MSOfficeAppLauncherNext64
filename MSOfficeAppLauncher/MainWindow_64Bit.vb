@@ -42,6 +42,9 @@ Public Class Main
         zSecretOptionsButton.Hide()
     End Sub
 
+#Region "Applications to launch."
+
+
     'Microsoft Access
     Private Sub Button1_Click_1(sender As System.Object, e As System.EventArgs) Handles Button1.Click
         Shell(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\MSACCESS.EXE")
@@ -111,16 +114,26 @@ Public Class Main
     Private Sub Button14_Click(sender As System.Object, e As System.EventArgs) Handles Button14.Click
         Shell(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\SETLANG.EXE")
     End Sub
+#End Region
 
 
     'Open the version history - 32-bit
     Private Sub ThreeTwoBitHist_Click(sender As System.Object, e As System.EventArgs) Handles ThreeTwoBitHist.Click
-        HTML32BitVerHist.ShowDialog()
+        If My.Settings.changelogDisplayMode = True Then
+            Process.Start("http://drews-apps.weebly.com/3/feed")
+        Else
+            HTML32BitVerHist.ShowDialog()
+        End If
+
     End Sub
 
     'Open the version history - 64-bit
     Private Sub SixFourVerHistButton_Click(sender As System.Object, e As System.EventArgs) Handles SixFourVerHistButton.Click
-        HTML64BitVerHist.ShowDialog()
+        If My.Settings.changelogDisplayMode = True Then
+            Process.Start("http://drews-apps.weebly.com/2/feed")
+        Else
+            HTML64BitVerHist.ShowDialog()
+        End If
     End Sub
 
     'Open the Options window.
@@ -130,12 +143,12 @@ Public Class Main
 
     'Open my main website.
     Private Sub LinkLabel1_LinkClicked(sender As System.Object, e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
-        System.Diagnostics.Process.Start("http://www.drewnayloremulation.weebly.com/")
+        Process.Start("http://www.drewnayloremulation.weebly.com/")
     End Sub
 
     'Open my application website.
     Private Sub LinkLabel2_LinkClicked(sender As System.Object, e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel2.LinkClicked
-        System.Diagnostics.Process.Start("http://www.drews-apps.weebly.com")
+        Process.Start("http://www.drews-apps.weebly.com")
     End Sub
 
 

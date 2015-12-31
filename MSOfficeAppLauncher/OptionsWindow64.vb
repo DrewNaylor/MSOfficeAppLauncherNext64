@@ -54,6 +54,8 @@ Public Class OptionsWindow64
 
         'Reset the "Drive Selector" textbox to drive C.
         textboxOfficeDrive.Text = "C"
+        'Reset the checkboxChangelog to the checked position.
+        checkboxChangelog.Checked = True
         'Show a message box informing the user that they need to click the Save button for the changes to take effect.
         MessageBox.Show("Values reset to default. Click the Save button to save changes.")
 
@@ -71,8 +73,17 @@ Public Class OptionsWindow64
 
         Else
 
-            'Save the settings for the "Drive Selector" textbox and other settings if I implement them.
+            'This is where to look up the drive for launching the programs.
             My.Settings.officeDriveLocation = textboxOfficeDrive.Text
+
+            'Choose how to display the changelogs.
+            If checkboxChangelog.Checked = True Then
+                My.Settings.changelogDisplayMode = True
+            Else
+                My.Settings.changelogDisplayMode = False
+            End If
+
+            'Save settings.
             My.Settings.Save()
             My.Settings.Reload()
             MessageBox.Show("Settings saved.")
@@ -92,5 +103,35 @@ Public Class OptionsWindow64
     'When the Options window loads, pull up the user's settings.
     Private Sub OptionsWindow64_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         textboxOfficeDrive.Text = My.Settings.officeDriveLocation
+
+        checkboxChangelog.Checked = My.Settings.changelogDisplayMode
+
+
+        'Fill in the checkboxChangelog with the proper text.
+        If My.Settings.changelogDisplayMode = True Then
+            checkboxChangelog.Text = "Load the changelog in your default browser. (Recommended)"
+        Else
+            checkboxChangelog.Text = "Use the old internal page to view changelogs."
+        End If
+    End Sub
+
+    Private Sub buttonClearDrive_Click(sender As System.Object, e As System.EventArgs) Handles buttonClearDrive.Click
+
+        'Clear the OfficeDrive textbox.
+        textboxOfficeDrive.Text = ""
+    End Sub
+
+    Private Sub checkboxChangelog_CheckedChanged(sender As System.Object, e As System.EventArgs) Handles checkboxChangelog.CheckedChanged
+
+        'This code tells the program how to change the text on the checkbox.
+        If checkboxChangelog.Checked = True Then
+            checkboxChangelog.Text = "Load the changelog in your default browser. (Recommended)"
+        Else
+            checkboxChangelog.Text = "Use the old internal page to view changelogs."
+        End If
+    End Sub
+
+    Private Sub checkboxChangelog_Click(sender As Object, e As System.EventArgs) Handles checkboxChangelog.Click
+        
     End Sub
 End Class
