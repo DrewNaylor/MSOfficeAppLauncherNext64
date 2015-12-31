@@ -1,7 +1,7 @@
 This application is licensed under the Gnu GPL version 3+ AND Drew's
 Modification Exception.
 
-
+"Drew's Modification Exception" begins around line 700.
 
 
 
@@ -710,11 +710,11 @@ Public License instead of this License.  But first, please read
 
                          Drew's Modification Exception
                      An Exception for the Gnu GPL version 3+
-                          By Drew Naylor (Drew) 2015.
+                          By Drew Naylor (Drew) 2015+.
 
 
 *Everyone is allowed to copy and distribute exact, verbatim copies of this
-Exception, but changing this is not permitted.
+Exception. If you are redistributing this Exception, you may not change anything.
 
 *This Exception is an additional permission under section 7 of the GNU
 General Public License, version 3 ("GPLv3"). It applies to a given file
@@ -729,35 +729,35 @@ some images created by Drew Naylor (Drew).
 
 0. PREFACE.
 
-0.1 The name “Drew” is the person typing this Exception, Drew Naylor 
-and anytime the text mentions “Me” or “My” or “I” or “We” or “Us,”
+0.1 The name Â“DrewÂ” is the person typing this Exception, Drew Naylor 
+and anytime the text mentions Â“MeÂ” or Â“MyÂ” or Â“IÂ” or Â“WeÂ” or Â“Us,Â”
 that is talking about Drew Naylor.
 
-0.2 When the text mentions “You” or “User,” the text is referring to
+0.2 When the text mentions Â“YouÂ” or Â“User,Â” the text is referring to
 people other than Drew Naylor.
 
-0.3 “Software” and “Applications” and “Programs” all mean computer
+0.3 Â“SoftwareÂ” and Â“ApplicationsÂ” and Â“ProgramsÂ” all mean computer
 software in this document.
 
 0.4 I am not a lawyer.
 
 0.5 I am not associated with the Free Software Foundation or the Gnu Project.
 
-0.6 Because this Exception is very short and only has exceptions which Gnu says
-are acceptable, the main license for my applications is the Gnu GPL version 3+
-unless I specify otherwise. Also, be sure to read the Gnu GPL version 3+ as
-well as this document.
+0.6 Because this Exception is very short and only has exceptions which the 
+Gnu GPL v3+ says are acceptable, the main license for my applications is the 
+Gnu GPL version 3+ unless I specify otherwise. Also, be sure to read the 
+Gnu GPL version 3+, (which should be at the top of this file,) as well as this Exception.
 
 
 
-1. REDISTRIBUTION AND USE OF MY CODE/IMAGERY.
+1. REDISTRIBUTION AND USE OF MY IMAGERY.
 
 1.1 Any and all redistributions of my (Drew's) application must
-contain both the GPL v3+ AND a copy of this Modification Exception
-inside the package.
+contain this "LICENSE" file, which must contain the Gnu GPLv3+ 
+followed by this Exception.
 
 
-1.2 You MAY NOT use my “D” or “DN” logo or any other logos which I
+1.2 You MAY NOT use my Â“DÂ” or Â“DNÂ” logo or any other logos which I
 don't allow people to use in your application OR FOR ANY OTHER PURPOSE.
 You may, however, use icons which I allow other people to use.
 
@@ -766,18 +766,13 @@ You may, however, use icons which I allow other people to use.
 
 2. MODIFICATIONS.
 
-
-2.1 If you modify this application, you must clearly state that your
-version is a modification and the original author (Drew) must be credited
-somewhere the user can easily find (eg. an About box). You may take credit
-for your modification if you wish, but if you do not take credit, you must
-still state that your version is modified.
-
-2.2 You MAY NOT remove ANY license or warranty information from modified
+2.1 You MAY NOT remove ANY license or warranty information from modified
 applications which I was the original author of WITHOUT my explicit,
-written permission first.
+written permission first. However, IF and only IF the modified version 
+DOES NOT CONTAIN my (Drew's) branding content (name of application and 
+any "D" or "DN" logos) you may remove this Exception.
 
-2.3 If you plan on redistributing your modification outside of your own
+2.2 If you plan on redistributing your modification outside of your own
 computer, you must change the branding in the application, such as changing
 the icon for the executable file itself and other icons that I do not allow
 for redistribution in my icon packages. Also change the name of the
@@ -790,7 +785,7 @@ application to not make it appear that I approve your modification.
 3.1 If you have any questions or comments or concerns with ANYTHING then
 you can contact me at <http://www.drewnayloremulation.weebly.com>.
 If you leave me your email address I will get back with you as soon as I
-have time. If you are concerned about privacy with your email being sent
+have time. If you are concerned about privacy with your email address being sent
 over http instead of https, you can create a temporary address.
 Either way, I won't use your email for spam or other malicious purposes.
 
@@ -803,9 +798,10 @@ Either way, I won't use your email for spam or other malicious purposes.
 4. WARRANTY.
 
 4.1 THERE IS NO WARRANTY WITH THIS APPLICATION. THE APPLICATION IS
-PROVIDED “AS-IS” WITHOUT ANY WARRANTIES, EITHER EXPRESSED OR IMPLIED BY DREW.
+PROVIDED Â“AS-ISÂ” WITHOUT ANY WARRANTIES, EITHER EXPRESSED OR IMPLIED BY DREW.
 RUNNING THE PROGRAM ON YOUR COMPUTER IS AT YOUR OWN RISK. IF THE PROGRAM HAS
-PROBLEMS WITH YOUR COMPUTER, YOU HAVE TO FIX IT YOURSELF.
+PROBLEMS WITH YOUR COMPUTER, YOU HAVE TO FIX IT YOURSELF (if the problem
+is your computer).
 I AM NOT LIABLE FOR ANY PROBLEMS ARISING FROM YOUR USE OF THE SOFTWARE.
 THIS APPLICATION IS NOT GUARANTEED TO WORK PERFECTLY ON YOUR COMPUTER.
 
