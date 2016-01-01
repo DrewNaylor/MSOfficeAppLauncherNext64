@@ -2,7 +2,7 @@
 This is the 64-bit version. Read the file "LICENSE" in a text editor for the entire license. The readme continues after this notice.
 
 <code>Drew's MS Office App Launcher (64-bit) - Launch Office Apps Quickly!
-Copyright (C) 2013-2015  Drew Naylor
+Copyright (C) 2013-2016  Drew Naylor
 Microsoft Office is copyright Microsoft Corp.
 (Note that the copyright years include the years left out by the hyphen.)</code>
 
