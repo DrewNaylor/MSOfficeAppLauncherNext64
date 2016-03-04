@@ -34,7 +34,7 @@ please visit <http://drews-apps.weebly.com/about> Note that these files should b
 
 I am not associated with Microsoft in any way, shape, or form. I just thought this application (my App Launcher for Office) would be useful to people. I have checked online for application launchers for Office to see if anyone else had already made one but I didn't find any except for a general-purpose launcher which looked kinda slow to use. Don't get me wrong, it looks nice, it's just not something I would use.
 
-If you want general information about this project, be sure to check the wiki on the right-hand side. It's the button that looks like an open book. Otherwise, keep reading.
+If you want general information about this project, be sure to check the wiki at the top of this page. It's the button that looks like an open book to the right of the "Pull Requests" tab. Otherwise, keep reading.
 
 --
 
