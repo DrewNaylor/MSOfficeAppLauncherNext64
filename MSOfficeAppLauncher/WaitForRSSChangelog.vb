@@ -1,5 +1,5 @@
 ﻿'Drew's MS Office App Launcher (64-bit) - Launch Office Apps Quickly!
-'Copyright (C) 2013-2015  Drew Naylor
+'Copyright (C) 2013-2016  Drew Naylor
 'Microsoft Office is copyright Microsoft Corp.
 '(Note that the copyright years include the years left out by the hyphen.)
 '
@@ -33,6 +33,6 @@ Public Class WaitForRSSChangelog
     'changelogs that are now in the applications. I'm keeping it in the code because it doesn't
     'harm anything and because I could reuse it for any development code. (See the designer view for more info.)
     Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Button1.Click
-        System.Diagnostics.Process.Start("http://www.drewnayloremulation.weebly.com/my-blog.html")
+        Process.Start("http://www.drewnayloremulation.weebly.com/my-blog.html")
     End Sub
 End Class
