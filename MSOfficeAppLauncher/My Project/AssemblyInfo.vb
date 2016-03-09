@@ -12,7 +12,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("Microsoft Office 2010 Application Launcher - Get your apps launched quicker! Launcher made by Drew Naylor using Visual Basic 2010 Express. Office and all related trademarks are copyright Microsoft Corp. All Rights Reserved.")> 
 <Assembly: AssemblyCompany("Drew N.")> 
 <Assembly: AssemblyProduct("App Launcher for Office 2010")> 
-<Assembly: AssemblyCopyright("Copyright 2013-2015 Drew Naylor. Licensed under the Gnu GPL v3+ and Drew's Modification Exception")> 
+<Assembly: AssemblyCopyright("Copyright 2013-2016 Drew Naylor. Licensed under the Gnu GPL v3+ and Drew's Modification Exception")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>

@@ -2,7 +2,7 @@
 This is the 64-bit version. Read the file "LICENSE" in a text editor for the entire license. The readme continues after this notice.
 
 <code>Drew's MS Office App Launcher (64-bit) - Launch Office Apps Quickly!
-Copyright (C) 2013-2015  Drew Naylor
+Copyright (C) 2013-2016  Drew Naylor
 Microsoft Office is copyright Microsoft Corp.
 (Note that the copyright years include the years left out by the hyphen.)</code>
 
@@ -34,7 +34,7 @@ please visit <http://drews-apps.weebly.com/about> Note that these files should b
 
 I am not associated with Microsoft in any way, shape, or form. I just thought this application (my App Launcher for Office) would be useful to people. I have checked online for application launchers for Office to see if anyone else had already made one but I didn't find any except for a general-purpose launcher which looked kinda slow to use. Don't get me wrong, it looks nice, it's just not something I would use.
 
-If you want general information about this project, be sure to check the wiki on the right-hand side. It's the button that looks like an open book. Otherwise, keep reading.
+If you want general information about this project, be sure to check the wiki at the top of this page. It's the button that looks like an open book to the right of the "Pull Requests" tab. Otherwise, keep reading.
 
 --
 
