@@ -145,6 +145,13 @@
         AAAAAAAAAAAAAA==
 </value>
   </data>
+  <data name="TextBox2.Text" xml:space="preserve">
+    <value>--&gt; Some applications will open on the Taskbar while others will open on top.
+--&gt; This app was made for launching the default apps in Microsoft Office ProPlus 2010. Not all Office 2010 app shortcuts are included.
+--&gt; THIS IS PRERELEASE SOFTWARE! Use at your own risk. At least while the version is a "Snapshot Preview." This Snapshot Preview is largely how the code appeared on the compile date.
+--&gt; If you didn't get a copy of the GPL v3 and Drew's Modification Exception in the download, please contact me through my main website below with your email address and I will send you a copy. I won't use your email address for any malicious purposes.
+</value>
+  </data>
   <data name="UpdateHistoryTextBox.Text" xml:space="preserve">
     <value>*Note: This Version History textbox has been
 depricated in favor of the buttons below for the 32-bit
@@ -184,13 +191,6 @@ Update 2 added some new features.
 
 Update 3 changed some text in the	About page.
 Update 3 also added this column.</value>
-  </data>
-  <data name="TextBox2.Text" xml:space="preserve">
-    <value>--&gt; Some applications will open on the Taskbar while others will open on top.
---&gt; This app was made for launching the default apps in Microsoft Office ProPlus 2010. Not all Office 2010 app shortcuts are included.
---&gt; THIS IS PRERELEASE SOFTWARE! Use at your own risk. At least while the version is a "Snapshot Preview."
---&gt; If you didn't get a copy of the GPL v3 and Drew's Modification Exception in the download, please contact me through my main website below with your email address and I will send you a copy. I won't use your email address for any malicious purposes.
-</value>
   </data>
   <data name="TextBox1.Text" xml:space="preserve">
     <value>Drew's App Launcher for Microsoft Office 2010 ProPlus
