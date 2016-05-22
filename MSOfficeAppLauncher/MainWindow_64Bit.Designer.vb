@@ -625,12 +625,12 @@ Partial Class Main
         'LinkLabel2
         '
         Me.LinkLabel2.AutoSize = True
-        Me.LinkLabel2.Location = New System.Drawing.Point(98, 30)
+        Me.LinkLabel2.Location = New System.Drawing.Point(85, 30)
         Me.LinkLabel2.Name = "LinkLabel2"
-        Me.LinkLabel2.Size = New System.Drawing.Size(100, 13)
+        Me.LinkLabel2.Size = New System.Drawing.Size(116, 13)
         Me.LinkLabel2.TabIndex = 1
         Me.LinkLabel2.TabStop = True
-        Me.LinkLabel2.Text = "More Applications..."
+        Me.LinkLabel2.Text = "Drew's GitHub Profile..."
         '
         'LinkLabel1
         '
