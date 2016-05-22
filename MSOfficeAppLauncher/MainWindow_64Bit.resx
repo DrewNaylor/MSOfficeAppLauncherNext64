@@ -145,6 +145,22 @@
         AAAAAAAAAAAAAA==
 </value>
   </data>
+  <data name="TextBox1.Text" xml:space="preserve">
+    <value>Drew's App Launcher for Microsoft Office 2010 ProPlus
+Version 2.8 Snapshot Preview 1
+Compiled for 64-bit systems with a 32-bit installation of Office 2010
+
+Copyright (C) 2013-2016 Drew Naylor
+This app allows you to get to your favorite Office 2010 ProPlus application very quickly.
+It can also clear up space on your desktop.
+I am not intending on infringing on Microsoft's copyrights, so this is only a shortcut application.
+
+App compiled on Saturday, May 21, 2016.
+
+Copyright notice: Office, Microsoft Office, Word, Excel, PowerPoint, and all related words (by MSFT) are Copyright [a long time ago]-[sometime in the future] Microsoft Corp. All Rights Reserved for Microsoft's copyrights.
+
+This application is licensed under the Gnu GPL v3+ and Drew's Modification Exception.</value>
+  </data>
   <data name="UpdateHistoryTextBox.Text" xml:space="preserve">
     <value>*Note: This Version History textbox has been
 depricated in favor of the buttons below for the 32-bit
@@ -191,22 +207,6 @@ Update 3 also added this column.</value>
 --&gt; If this app has the word "Next" in the title bar, it is a beta version, which means some features may be broken.
 --&gt; If you didn't get a copy of the GPL v3 and Drew's Modification Exception in the download, please contact me through my main website below with your email address and I will send you a copy. I won't use your email address for any malicious purposes.
 </value>
-  </data>
-  <data name="TextBox1.Text" xml:space="preserve">
-    <value>Drew's App Launcher for Microsoft Office 2010 ProPlus
-Version 2.8 Snapshot Preview 1
-Compiled for 64-bit systems with a 32-bit installation of Office 2010
-
-Copyright (C) 2013-2016 Drew Naylor
-This app allows you to get to your favorite Office 2010 ProPlus application very quickly.
-It can also clear up space on your desktop.
-I am not intending on infringing on Microsoft's copyrights, so this is only a shortcut application.
-
-App compiled on Thursday, December 10, 2015.
-
-Copyright notice: Office, Microsoft Office, Word, Excel, PowerPoint, and all related words (by MSFT) are Copyright [a long time ago]-[sometime in the future] Microsoft Corp. All Rights Reserved for Microsoft's copyrights.
-
-This application is licensed under the Gnu GPL v3+ and Drew's Modification Exception.</value>
   </data>
   <metadata name="StatusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>126, 17</value>
