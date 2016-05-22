@@ -188,13 +188,13 @@ Update 3 also added this column.</value>
   <data name="TextBox2.Text" xml:space="preserve">
     <value>--&gt; Some applications will open on the Taskbar while others will open on top.
 --&gt; This app was made for launching the default apps in Microsoft Office ProPlus 2010. Not all Office 2010 app shortcuts are included.
---&gt; If this app has the word "Next" in the title bar, it is a beta version, which means some features may be broken.
+--&gt; THIS IS PRERELEASE SOFTWARE! Use at your own risk. At least while the version is a "Snapshot Preview." This Snapshot Preview is largely how the code appeared on the compile date.
 --&gt; If you didn't get a copy of the GPL v3 and Drew's Modification Exception in the download, please contact me through my main website below with your email address and I will send you a copy. I won't use your email address for any malicious purposes.
 </value>
   </data>
   <data name="TextBox1.Text" xml:space="preserve">
     <value>Drew's App Launcher for Microsoft Office 2010 ProPlus
-Version 2.7
+Version 2.8 Snapshot Preview 1
 Compiled for 64-bit systems with a 32-bit installation of Office 2010
 
 Copyright (C) 2013-2016 Drew Naylor
@@ -202,7 +202,7 @@ This app allows you to get to your favorite Office 2010 ProPlus application very
 It can also clear up space on your desktop.
 I am not intending on infringing on Microsoft's copyrights, so this is only a shortcut application.
 
-App compiled on Thursday, December 10, 2015.
+App compiled on Saturday, May 21, 2016.
 
 Copyright notice: Office, Microsoft Office, Word, Excel, PowerPoint, and all related words (by MSFT) are Copyright [a long time ago]-[sometime in the future] Microsoft Corp. All Rights Reserved for Microsoft's copyrights.
 
