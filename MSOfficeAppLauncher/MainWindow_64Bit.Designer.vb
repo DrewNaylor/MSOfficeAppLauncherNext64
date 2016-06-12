@@ -78,6 +78,7 @@ Partial Class Main
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolStripContainer1 = New System.Windows.Forms.ToolStripContainer()
+        Me.buttonReadOld64bitChangelogs = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.GroupBox5.SuspendLayout()
@@ -538,11 +539,12 @@ Partial Class Main
         '
         'GroupBox8
         '
+        Me.GroupBox8.Controls.Add(Me.buttonReadOld64bitChangelogs)
         Me.GroupBox8.Controls.Add(Me.GroupBox9)
         Me.GroupBox8.Controls.Add(Me.UpdateHistoryTextBox)
         Me.GroupBox8.Location = New System.Drawing.Point(486, 7)
         Me.GroupBox8.Name = "GroupBox8"
-        Me.GroupBox8.Size = New System.Drawing.Size(216, 497)
+        Me.GroupBox8.Size = New System.Drawing.Size(206, 497)
         Me.GroupBox8.TabIndex = 5
         Me.GroupBox8.TabStop = False
         Me.GroupBox8.Text = "Version History"
@@ -553,7 +555,7 @@ Partial Class Main
         Me.GroupBox9.Controls.Add(Me.SixFourVerHistButton)
         Me.GroupBox9.Location = New System.Drawing.Point(7, 381)
         Me.GroupBox9.Name = "GroupBox9"
-        Me.GroupBox9.Size = New System.Drawing.Size(187, 112)
+        Me.GroupBox9.Size = New System.Drawing.Size(193, 112)
         Me.GroupBox9.TabIndex = 3
         Me.GroupBox9.TabStop = False
         Me.GroupBox9.Text = "Edition-specific Version History"
@@ -561,7 +563,7 @@ Partial Class Main
         'ThreeTwoBitHist
         '
         Me.ThreeTwoBitHist.AccessibleName = "32-Bit Version History"
-        Me.ThreeTwoBitHist.Location = New System.Drawing.Point(21, 19)
+        Me.ThreeTwoBitHist.Location = New System.Drawing.Point(27, 19)
         Me.ThreeTwoBitHist.Name = "ThreeTwoBitHist"
         Me.ThreeTwoBitHist.Size = New System.Drawing.Size(160, 41)
         Me.ThreeTwoBitHist.TabIndex = 1
@@ -571,7 +573,7 @@ Partial Class Main
         'SixFourVerHistButton
         '
         Me.SixFourVerHistButton.AccessibleName = "64-Bit Version History"
-        Me.SixFourVerHistButton.Location = New System.Drawing.Point(21, 66)
+        Me.SixFourVerHistButton.Location = New System.Drawing.Point(27, 64)
         Me.SixFourVerHistButton.Name = "SixFourVerHistButton"
         Me.SixFourVerHistButton.Size = New System.Drawing.Size(160, 41)
         Me.SixFourVerHistButton.TabIndex = 2
@@ -584,7 +586,7 @@ Partial Class Main
         Me.UpdateHistoryTextBox.Location = New System.Drawing.Point(7, 16)
         Me.UpdateHistoryTextBox.Name = "UpdateHistoryTextBox"
         Me.UpdateHistoryTextBox.ReadOnly = True
-        Me.UpdateHistoryTextBox.Size = New System.Drawing.Size(206, 359)
+        Me.UpdateHistoryTextBox.Size = New System.Drawing.Size(193, 212)
         Me.UpdateHistoryTextBox.TabIndex = 0
         Me.UpdateHistoryTextBox.Text = resources.GetString("UpdateHistoryTextBox.Text")
         '
@@ -709,6 +711,15 @@ Partial Class Main
         Me.ToolStripContainer1.Text = "ToolStripContainer1"
         Me.ToolStripContainer1.TopToolStripPanelVisible = False
         '
+        'buttonReadOld64bitChangelogs
+        '
+        Me.buttonReadOld64bitChangelogs.Location = New System.Drawing.Point(7, 241)
+        Me.buttonReadOld64bitChangelogs.Name = "buttonReadOld64bitChangelogs"
+        Me.buttonReadOld64bitChangelogs.Size = New System.Drawing.Size(193, 73)
+        Me.buttonReadOld64bitChangelogs.TabIndex = 4
+        Me.buttonReadOld64bitChangelogs.Text = "Read the Old 64-bit Changelogs"
+        Me.buttonReadOld64bitChangelogs.UseVisualStyleBackColor = True
+        '
         'Main
         '
         Me.AccessibleName = "Drew's App Launcher for Office 2010 ProPlus (32-bit Mode, Next)"
@@ -819,5 +830,6 @@ Partial Class Main
     Friend WithEvents Button15 As System.Windows.Forms.Button
     Friend WithEvents PictureBox15 As System.Windows.Forms.PictureBox
     Friend WithEvents LinkLabel2 As System.Windows.Forms.LinkLabel
+    Friend WithEvents buttonReadOld64bitChangelogs As System.Windows.Forms.Button
 
 End Class
