@@ -94,7 +94,7 @@ In order to compile this project yourself, follow these steps:
 3. When Visual Studio 2010 launches and is ready for input, click <code>File>New Project...</code>.
 4. In the left sidebar, navigate to <code>Other Project Types\Visual Studio Solutions</code> and click on <code>Blank Solution</code>. 
 5. Name your solution something in the <code>Name:</code> field, browse for the directory if necessary, and click the <code>OK</code> button. For example, I named mine "AppLauncherStudio."
-6. After the Solution file is created, click the <code>Save All</code> to save your project.
+6. After the Solution file is created, click the <code>Save All</code> button to save your project.
 7. Click <code>File>Add>Existing Project...</code> and navigate to where you cloned the repo earlier. Dig all the way down to ~~Bedrock~~ <code>MSOfficeAppLauncherNext64\MSOfficeAppLauncher</code> and open the file called "<code>MSOfficeAppLauncher64.vbproj</code>." 
 8. If all goes well, the project should appear in the Visual Studio <code>Solution Explorer</code>.
  
