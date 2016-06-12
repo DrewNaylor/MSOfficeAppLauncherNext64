@@ -119,7 +119,7 @@ Public Class Main
 
     'Open the version history - 32-bit
     Private Sub ThreeTwoBitHist_Click(sender As System.Object, e As System.EventArgs) Handles ThreeTwoBitHist.Click
-        If My.Settings.changelogDisplayMode = True Then
+        If My.Settings.changelogDisplayMode = False Then
             Process.Start("https://github.com/DrewNaylor/MSOfficeAppLauncherNext32/releases.atom")
         Else
             HTML32BitVerHist.ShowDialog()
@@ -129,7 +129,7 @@ Public Class Main
 
     'Open the version history - 64-bit
     Private Sub SixFourVerHistButton_Click(sender As System.Object, e As System.EventArgs) Handles SixFourVerHistButton.Click
-        If My.Settings.changelogDisplayMode = True Then
+        If My.Settings.changelogDisplayMode = False Then
             Process.Start("https://github.com/DrewNaylor/MSOfficeAppLauncherNext64/releases.atom")
         Else
             HTML64BitVerHist.ShowDialog()
