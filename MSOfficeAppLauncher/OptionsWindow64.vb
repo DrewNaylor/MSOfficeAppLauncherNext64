@@ -105,14 +105,6 @@ Public Class OptionsWindow64
         textboxOfficeDrive.Text = My.Settings.officeDriveLocation
 
         checkboxChangelog.Checked = My.Settings.changelogDisplayMode
-
-
-        'Fill in the checkboxChangelog with the proper text.
-        If My.Settings.changelogDisplayMode = True Then
-            checkboxChangelog.Text = "Load the changelog in your default browser. (Recommended)"
-        Else
-            checkboxChangelog.Text = "Use the old internal page to view changelogs."
-        End If
     End Sub
 
     Private Sub buttonClearDrive_Click(sender As System.Object, e As System.EventArgs) Handles buttonClearDrive.Click
@@ -120,16 +112,6 @@ Public Class OptionsWindow64
         'Clear the OfficeDrive textbox.
         textboxOfficeDrive.Text = ""
         textboxOfficeDrive.Select()
-    End Sub
-
-    Private Sub checkboxChangelog_CheckedChanged(sender As System.Object, e As System.EventArgs) Handles checkboxChangelog.CheckedChanged
-
-        'This code tells the program how to change the text on the checkbox.
-        If checkboxChangelog.Checked = True Then
-            checkboxChangelog.Text = "Load the changelog in your default browser. (Recommended)"
-        Else
-            checkboxChangelog.Text = "Use the old internal page to view changelogs."
-        End If
     End Sub
 
     Private Sub checkboxChangelog_Click(sender As Object, e As System.EventArgs) Handles checkboxChangelog.Click
