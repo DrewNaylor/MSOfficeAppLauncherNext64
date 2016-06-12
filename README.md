@@ -38,6 +38,32 @@ If you want general information about this project, be sure to check the wiki at
 
 --
 
+# Minimum Recommended Specifications
+The following specifications are the lowest that I recommended to run this software.
+
+- .Net 4 Client Profile: http://www.microsoft.com/en-us/download/details.aspx?id=24872
+Ignore the Windows 10 message on that page, scroll down, and click the orange Download button. May take a while to download.
+
+- Windows versions: Windows XP SP3, Vista SP1 or later, Windows 7 and 7 SP1, 8, 8.1, 10.
+
+- Architectures: x86 (32-bit) and x64 (64-bit.)
+
+- Hardware requirements: At least a 1.2 GHz, Pentium 4 CPU or higher; 1 GB of RAM or more.
+
+- Disk space:
+
+  - 32-bit: 700 MB space free.
+  - 64-bit: 2 GB space free.
+
+- To properly view the RSS/Atom release feeds, you'll need Firefox or Internet Explorer.
+
+- Note that you might have problems with running this on corporate computers. The ClickOnce security settings are disabled in version 2.8 due to Visual Studio not building properly suddenly. They are enabled in versions 2.7 and 2.6.1.
+
+- Also note that I've never used this software on Vista, although it should work just fine.
+
+
+--
+
 # Software Required to Edit the Project
 
 - Obviously, you'll need Git. GitHub has GitHub Desktop and Git Shell for Windows. There is one for Mac as well.
