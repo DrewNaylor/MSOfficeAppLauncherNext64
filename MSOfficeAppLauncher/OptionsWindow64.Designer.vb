@@ -90,9 +90,9 @@ Partial Class OptionsWindow64
         '
         Me.buttonCancel.AccessibleName = "Cancel Button"
         Me.buttonCancel.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.buttonCancel.Location = New System.Drawing.Point(200, 260)
+        Me.buttonCancel.Location = New System.Drawing.Point(211, 260)
         Me.buttonCancel.Name = "buttonCancel"
-        Me.buttonCancel.Size = New System.Drawing.Size(75, 23)
+        Me.buttonCancel.Size = New System.Drawing.Size(64, 23)
         Me.buttonCancel.TabIndex = 98
         Me.buttonCancel.Text = "Cancel"
         Me.buttonCancel.UseVisualStyleBackColor = True
@@ -103,7 +103,7 @@ Partial Class OptionsWindow64
         Me.buttonResetToDefaults.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.buttonResetToDefaults.Location = New System.Drawing.Point(12, 260)
         Me.buttonResetToDefaults.Name = "buttonResetToDefaults"
-        Me.buttonResetToDefaults.Size = New System.Drawing.Size(75, 23)
+        Me.buttonResetToDefaults.Size = New System.Drawing.Size(64, 23)
         Me.buttonResetToDefaults.TabIndex = 97
         Me.buttonResetToDefaults.Text = "Defaults"
         Me.buttonResetToDefaults.UseVisualStyleBackColor = True
@@ -112,9 +112,9 @@ Partial Class OptionsWindow64
         '
         Me.buttonSaveSettings.AccessibleName = "Save Button"
         Me.buttonSaveSettings.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.buttonSaveSettings.Location = New System.Drawing.Point(281, 260)
+        Me.buttonSaveSettings.Location = New System.Drawing.Point(292, 260)
         Me.buttonSaveSettings.Name = "buttonSaveSettings"
-        Me.buttonSaveSettings.Size = New System.Drawing.Size(75, 23)
+        Me.buttonSaveSettings.Size = New System.Drawing.Size(64, 23)
         Me.buttonSaveSettings.TabIndex = 99
         Me.buttonSaveSettings.Text = "Save"
         Me.buttonSaveSettings.UseVisualStyleBackColor = True
