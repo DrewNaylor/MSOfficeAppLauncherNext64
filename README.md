@@ -61,7 +61,6 @@ Ignore the Windows 10 message on that page, scroll down, and click the orange Do
 
 - Also note that I've never used this software on Vista, although it should work just fine.
 
-
 --
 
 # Software Required to Edit the Project
@@ -73,6 +72,19 @@ Ignore the Windows 10 message on that page, scroll down, and click the orange Do
 - The latest updates for VS 2010.
 - Microsoft Office 2010 Professional (or Professional Plus [this app was made for the ProPlus version.]) If you don't have Office or don't want to install Office, you can actually use a collection of dummy files I made called "dummyOffice." They are made up of just a window that says "You have successfully launched the [app] dummy component. Click Ok to continue." I will soon release them but right now I am just getting everything up-to-speed on GitHub. I won't provide an actual installer for the dummy components as I don't want people messing up their installation of Office. Once it's released, only install dummyOffice if you know what you're doing!
 
+--
+
+# How to Compile the Project Yourself
+
+In order to compile this project yourself, follow these steps:
+
+1. First, open Explorer and navigate to <code>C:\Windows\Microsoft.NET\Framework\v4.0.30319</code> or <code>C:\Windows\Microsoft.NET\Framework64\v4.0.30319</code> on a 64-bit installation of Windows.
+2. Next, open your command prompt and drag the <code>MSBuild.exe</code> file into the prompt. You can also create a shortcut to <code>MSBuild.exe</code> and place it on your desktop for easy access.
+3. Third, after dragging <code>MSBuild.exe</code> into the Command Prompt, navigate to where you placed the source code for this project and find the <code>VBProj</code> file. It should be under <code>MSOfficeAppLauncher64-master\MSOfficeAppLauncher\MSOfficeAppLauncher64.vbproj</code>. Note that the filename and location may differ slightly based on which "Edition" of the app launcher code you download.
+4. Fourth, insert a space after the <code>MSBuild.exe</code> line inside your Command Prompt, then drag that <code>VBProj</code> file we found earlier into the Command Prompt.
+5. And finally, press the <code>Enter</code> or <code>Return</code> key on your keyboard to build the project! After it's complete, you'll find your compiled files in <code>MSOfficeAppLauncher\bin\Debug</code>. Simply double-click the file that says <code>MSOfficeAppLauncher64.exe</code> found within that folder and it will run. If you have trouble, please create a GitHub Issue pertaining to what you're having trouble with and either myself or someone else will assist when they get the chance.
+
+--
 
 # How to get Up and Running with the Files in this Repo
 
