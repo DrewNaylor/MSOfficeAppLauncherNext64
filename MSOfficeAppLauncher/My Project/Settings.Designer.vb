@@ -81,12 +81,12 @@ Namespace My
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
-        Public Property changelogDisplayMode() As Boolean
+        Public Property deprecatedChangelogDisplayMode() As Boolean
             Get
-                Return CType(Me("changelogDisplayMode"),Boolean)
+                Return CType(Me("deprecatedChangelogDisplayMode"),Boolean)
             End Get
             Set
-                Me("changelogDisplayMode") = value
+                Me("deprecatedChangelogDisplayMode") = value
             End Set
         End Property
     End Class
