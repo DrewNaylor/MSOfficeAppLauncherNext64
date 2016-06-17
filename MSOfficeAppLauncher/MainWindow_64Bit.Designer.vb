@@ -79,6 +79,7 @@ Partial Class Main
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolStripContainer1 = New System.Windows.Forms.ToolStripContainer()
+        Me.LinkLabel3 = New System.Windows.Forms.LinkLabel()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.GroupBox5.SuspendLayout()
@@ -595,6 +596,7 @@ Partial Class Main
         Me.UpdateHistoryTextBox.Location = New System.Drawing.Point(7, 16)
         Me.UpdateHistoryTextBox.Name = "UpdateHistoryTextBox"
         Me.UpdateHistoryTextBox.ReadOnly = True
+        Me.UpdateHistoryTextBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None
         Me.UpdateHistoryTextBox.Size = New System.Drawing.Size(193, 314)
         Me.UpdateHistoryTextBox.TabIndex = 0
         Me.UpdateHistoryTextBox.Text = resources.GetString("UpdateHistoryTextBox.Text")
@@ -623,6 +625,7 @@ Partial Class Main
         '
         'GroupBox2
         '
+        Me.GroupBox2.Controls.Add(Me.LinkLabel3)
         Me.GroupBox2.Controls.Add(Me.LinkLabel2)
         Me.GroupBox2.Controls.Add(Me.LinkLabel1)
         Me.GroupBox2.Location = New System.Drawing.Point(9, 436)
@@ -635,7 +638,7 @@ Partial Class Main
         'LinkLabel2
         '
         Me.LinkLabel2.AutoSize = True
-        Me.LinkLabel2.Location = New System.Drawing.Point(85, 30)
+        Me.LinkLabel2.Location = New System.Drawing.Point(23, 30)
         Me.LinkLabel2.Name = "LinkLabel2"
         Me.LinkLabel2.Size = New System.Drawing.Size(116, 13)
         Me.LinkLabel2.TabIndex = 1
@@ -646,7 +649,7 @@ Partial Class Main
         '
         Me.LinkLabel1.AccessibleName = "Visit my website by clicking here."
         Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Location = New System.Drawing.Point(246, 30)
+        Me.LinkLabel1.Location = New System.Drawing.Point(171, 30)
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(116, 13)
         Me.LinkLabel1.TabIndex = 0
@@ -717,6 +720,16 @@ Partial Class Main
         Me.ToolStripContainer1.TabIndex = 1
         Me.ToolStripContainer1.Text = "ToolStripContainer1"
         Me.ToolStripContainer1.TopToolStripPanelVisible = False
+        '
+        'LinkLabel3
+        '
+        Me.LinkLabel3.AutoSize = True
+        Me.LinkLabel3.Location = New System.Drawing.Point(319, 30)
+        Me.LinkLabel3.Name = "LinkLabel3"
+        Me.LinkLabel3.Size = New System.Drawing.Size(118, 13)
+        Me.LinkLabel3.TabIndex = 2
+        Me.LinkLabel3.TabStop = True
+        Me.LinkLabel3.Text = "Visit the GitHub Repo..."
         '
         'Main
         '
@@ -829,5 +842,6 @@ Partial Class Main
     Friend WithEvents PictureBox15 As System.Windows.Forms.PictureBox
     Friend WithEvents LinkLabel2 As System.Windows.Forms.LinkLabel
     Friend WithEvents buttonReadOld64bitChangelogs As System.Windows.Forms.Button
+    Friend WithEvents LinkLabel3 As System.Windows.Forms.LinkLabel
 
 End Class
