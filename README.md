@@ -38,6 +38,31 @@ If you want general information about this project, be sure to check the wiki at
 
 --
 
+# Minimum Recommended Specifications
+The following specifications are the lowest that I recommended to run this software.
+
+- .Net 4 Client Profile: http://www.microsoft.com/en-us/download/details.aspx?id=24872
+Ignore the Windows 10 message on that page, scroll down, and click the orange Download button. May take a while to download.
+
+- Windows versions: Windows XP SP3, Vista SP1 or later, Windows 7 and 7 SP1, 8, 8.1, 10.
+
+- Architectures: x86 (32-bit) and x64 (64-bit.)
+
+- Hardware requirements: At least a 1.2 GHz, Pentium 4 CPU or higher; 1 GB of RAM or more.
+
+- Disk space:
+
+  - 32-bit: 700 MB space free.
+  - 64-bit: 2 GB space free.
+
+- To properly view the RSS/Atom release feeds, you'll need Firefox or Internet Explorer.
+
+- Note that you might have problems with running this on corporate computers. The ClickOnce security settings are disabled in version 2.8 due to Visual Studio not building properly suddenly. They are enabled in versions 2.7 and 2.6.1.
+
+- Also note that I've never used this software on Vista, although it should work just fine.
+
+--
+
 # Software Required to Edit the Project
 
 - Obviously, you'll need Git. GitHub has GitHub Desktop and Git Shell for Windows. There is one for Mac as well.
@@ -47,18 +72,31 @@ If you want general information about this project, be sure to check the wiki at
 - The latest updates for VS 2010.
 - Microsoft Office 2010 Professional (or Professional Plus [this app was made for the ProPlus version.]) If you don't have Office or don't want to install Office, you can actually use a collection of dummy files I made called "dummyOffice." They are made up of just a window that says "You have successfully launched the [app] dummy component. Click Ok to continue." I will soon release them but right now I am just getting everything up-to-speed on GitHub. I won't provide an actual installer for the dummy components as I don't want people messing up their installation of Office. Once it's released, only install dummyOffice if you know what you're doing!
 
+--
+
+# How to Compile the Project Yourself
+
+In order to compile this project yourself, follow these steps:
+
+1. First, open Explorer and navigate to <code>C:\Windows\Microsoft.NET\Framework\v4.0.30319</code> or <code>C:\Windows\Microsoft.NET\Framework64\v4.0.30319</code> on a 64-bit installation of Windows.
+2. Next, open your command prompt and drag the <code>MSBuild.exe</code> file into the prompt. You can also create a shortcut to <code>MSBuild.exe</code> and place it on your desktop for easy access.
+3. Third, after dragging <code>MSBuild.exe</code> into the Command Prompt, navigate to where you placed the source code for this project and find the <code>VBProj</code> file. It should be under <code>MSOfficeAppLauncher64-master\MSOfficeAppLauncher\MSOfficeAppLauncher64.vbproj</code>. Note that the filename and location may differ slightly based on which "Edition" of the app launcher code you download.
+4. Fourth, insert a space after the <code>MSBuild.exe</code> line inside your Command Prompt, then drag that <code>VBProj</code> file we found earlier into the Command Prompt.
+5. And finally, press the <code>Enter</code> or <code>Return</code> key on your keyboard to build the project! After it's complete, you'll find your compiled files in <code>MSOfficeAppLauncher\bin\Debug</code>. Simply double-click the file that says <code>MSOfficeAppLauncher64.exe</code> found within that folder and it will run. If you have trouble, please create a GitHub Issue pertaining to what you're having trouble with and either myself or someone else will assist when they get the chance.
+
+--
 
 # How to get Up and Running with the Files in this Repo
 
 
-- First, clone the repository by running:    <code>git clone https://github.com/DrewNaylor/MSOfficeAppLauncherNext64.git</code> and remember where the files are saved.
-- Next, open Visual Studio 2010.
-- When Visual Studio 2010 launches and is ready for input, click <code>File>New Project...</code>.
-- In the left sidebar, navigate to <code>Other Project Types\Visual Studio Solutions</code> and click on <code>Blank Solution</code>. 
-- Name your solution something in the <code>Name:</code> field, browse for the directory if necessary, and click the <code>OK</code> button. For example, I named mine "AppLauncherStudio."
-- After the Solution file is created, click the <code>Save All</code> to save your project.
-- Click <code>File>Add>Existing Project...</code> and navigate to where you cloned the repo earlier. Dig all the way down to ~~Bedrock~~ <code>MSOfficeAppLauncherNext64\MSOfficeAppLauncher</code> and open the file called "<code>MSOfficeAppLauncher64.vbproj</code>." 
-- If all goes well, the project should appear in the Visual Studio <code>Solution Explorer</code>.
+1. First, clone the repository by running:    <code>git clone https://github.com/DrewNaylor/MSOfficeAppLauncherNext64.git</code> and remember where the files are saved.
+2. Next, open Visual Studio 2010.
+3. When Visual Studio 2010 launches and is ready for input, click <code>File>New Project...</code>.
+4. In the left sidebar, navigate to <code>Other Project Types\Visual Studio Solutions</code> and click on <code>Blank Solution</code>. 
+5. Name your solution something in the <code>Name:</code> field, browse for the directory if necessary, and click the <code>OK</code> button. For example, I named mine "AppLauncherStudio."
+6. After the Solution file is created, click the <code>Save All</code> button to save your project.
+7. Click <code>File>Add>Existing Project...</code> and navigate to where you cloned the repo earlier. Dig all the way down to ~~Bedrock~~ <code>MSOfficeAppLauncherNext64\MSOfficeAppLauncher</code> and open the file called "<code>MSOfficeAppLauncher64.vbproj</code>." 
+8. If all goes well, the project should appear in the Visual Studio <code>Solution Explorer</code>.
  
 You'll be using this Solution file you just made to open the project. See the next paragraph for details.
 
