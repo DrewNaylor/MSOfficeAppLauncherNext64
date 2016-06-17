@@ -122,7 +122,6 @@ Partial Class Main
         '
         Me.TabControl1.Controls.Add(Me.TabPage1)
         Me.TabControl1.Controls.Add(Me.TabPage2)
-        Me.TabControl1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TabControl1.Location = New System.Drawing.Point(0, 0)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
@@ -551,7 +550,7 @@ Partial Class Main
         '
         'buttonReadOld64bitChangelogs
         '
-        Me.buttonReadOld64bitChangelogs.Location = New System.Drawing.Point(13, 336)
+        Me.buttonReadOld64bitChangelogs.Location = New System.Drawing.Point(10, 336)
         Me.buttonReadOld64bitChangelogs.Name = "buttonReadOld64bitChangelogs"
         Me.buttonReadOld64bitChangelogs.Size = New System.Drawing.Size(187, 39)
         Me.buttonReadOld64bitChangelogs.TabIndex = 4
@@ -572,7 +571,7 @@ Partial Class Main
         'ThreeTwoBitHist
         '
         Me.ThreeTwoBitHist.AccessibleName = "32-Bit Version History"
-        Me.ThreeTwoBitHist.Location = New System.Drawing.Point(27, 19)
+        Me.ThreeTwoBitHist.Location = New System.Drawing.Point(17, 19)
         Me.ThreeTwoBitHist.Name = "ThreeTwoBitHist"
         Me.ThreeTwoBitHist.Size = New System.Drawing.Size(160, 41)
         Me.ThreeTwoBitHist.TabIndex = 1
@@ -582,7 +581,7 @@ Partial Class Main
         'SixFourVerHistButton
         '
         Me.SixFourVerHistButton.AccessibleName = "64-Bit Version History"
-        Me.SixFourVerHistButton.Location = New System.Drawing.Point(27, 64)
+        Me.SixFourVerHistButton.Location = New System.Drawing.Point(17, 64)
         Me.SixFourVerHistButton.Name = "SixFourVerHistButton"
         Me.SixFourVerHistButton.Size = New System.Drawing.Size(160, 41)
         Me.SixFourVerHistButton.TabIndex = 2
