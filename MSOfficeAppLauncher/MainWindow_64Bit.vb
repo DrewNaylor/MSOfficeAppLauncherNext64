@@ -47,72 +47,72 @@ Public Class Main
 
     'Microsoft Access
     Private Sub Button1_Click_1(sender As System.Object, e As System.EventArgs) Handles Button1.Click
-        Shell(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\MSACCESS.EXE")
+        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\MSACCESS.EXE")
     End Sub
 
     'Excel
     Private Sub Button2_Click(sender As System.Object, e As System.EventArgs) Handles Button2.Click
-        Shell(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\EXCEL.EXE")
+        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\EXCEL.EXE")
     End Sub
 
     'Infopath
     Private Sub Button3_Click(sender As System.Object, e As System.EventArgs) Handles Button3.Click
-        Shell(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\INFOPATH.EXE")
+        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\INFOPATH.EXE")
     End Sub
 
     'OneNote
     Private Sub Button4_Click(sender As System.Object, e As System.EventArgs) Handles Button4.Click
-        Shell(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\ONENOTE.EXE")
+        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\ONENOTE.EXE")
     End Sub
 
     'Outlook
     Private Sub Button5_Click(sender As System.Object, e As System.EventArgs) Handles Button5.Click
-        Shell(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\OUTLOOK.EXE")
+        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\OUTLOOK.EXE")
     End Sub
 
     'Powerpoint
     Private Sub Button6_Click(sender As System.Object, e As System.EventArgs) Handles Button6.Click
-        Shell(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\POWERPNT.EXE")
+        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\POWERPNT.EXE")
     End Sub
 
     'SharePoint
     Private Sub Button8_Click(sender As System.Object, e As System.EventArgs) Handles Button8.Click
-        Shell(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\GROOVE.EXE")
+        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\GROOVE.EXE")
     End Sub
 
     'Microsoft Publisher
     Private Sub Button7_Click(sender As System.Object, e As System.EventArgs) Handles Button7.Click
-        Shell(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\MSPUB.EXE")
+        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\MSPUB.EXE")
     End Sub
 
     'Microsoft Word
     Private Sub Button9_Click(sender As System.Object, e As System.EventArgs) Handles Button9.Click
-        Shell(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\WINWORD.EXE")
+        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\WINWORD.EXE")
     End Sub
 
     'Microsoft Query
     Private Sub Button10_Click(sender As System.Object, e As System.EventArgs) Handles Button10.Click
-        Shell(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\MSQRY32.EXE")
+        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\MSQRY32.EXE")
     End Sub
 
     'Clip Organizer
     Private Sub Button11_Click(sender As System.Object, e As System.EventArgs) Handles Button11.Click
-        Shell(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\MSTORE.EXE")
+        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\MSTORE.EXE")
     End Sub
 
     'Office Picture Manager
     Private Sub Button12_Click(sender As System.Object, e As System.EventArgs) Handles Button12.Click
-        Shell(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\OIS.EXE")
+        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\OIS.EXE")
     End Sub
 
     'OneNote Quick Launch
     Private Sub Button13_Click(sender As System.Object, e As System.EventArgs) Handles Button13.Click
-        Shell(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\ONENOTEM.EXE")
+        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\ONENOTEM.EXE")
     End Sub
 
     'Open the Language Settings.
     Private Sub Button14_Click(sender As System.Object, e As System.EventArgs) Handles Button14.Click
-        Shell(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\SETLANG.EXE")
+        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\SETLANG.EXE")
     End Sub
 #End Region
 
