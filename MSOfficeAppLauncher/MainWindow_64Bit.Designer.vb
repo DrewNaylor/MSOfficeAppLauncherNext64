@@ -22,8 +22,9 @@ Partial Class Main
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Main))
-        Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon()
+        Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
@@ -733,7 +734,7 @@ Partial Class Main
         Me.MinimumSize = New System.Drawing.Size(520, 520)
         Me.Name = "Main"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Drew's App Launcher for Office 2010 ProPlus (64-bit Edition, Snapshot Preview)"
+        Me.Text = "Drew's App Launcher for Office 2010 ProPlus (64-bit Edition, Snapshot Preview 2)"
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.GroupBox5.ResumeLayout(False)
