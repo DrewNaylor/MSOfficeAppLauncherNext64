@@ -22,9 +22,8 @@ Partial Class Main
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Main))
-        Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
+        Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
@@ -64,6 +63,7 @@ Partial Class Main
         Me.Button2 = New System.Windows.Forms.Button()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.GroupBox8 = New System.Windows.Forms.GroupBox()
+        Me.buttonReadOld64bitChangelogs = New System.Windows.Forms.Button()
         Me.GroupBox9 = New System.Windows.Forms.GroupBox()
         Me.ThreeTwoBitHist = New System.Windows.Forms.Button()
         Me.SixFourVerHistButton = New System.Windows.Forms.Button()
@@ -78,7 +78,6 @@ Partial Class Main
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolStripContainer1 = New System.Windows.Forms.ToolStripContainer()
-        Me.buttonReadOld64bitChangelogs = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.GroupBox5.SuspendLayout()
@@ -549,6 +548,15 @@ Partial Class Main
         Me.GroupBox8.TabStop = False
         Me.GroupBox8.Text = "Version History"
         '
+        'buttonReadOld64bitChangelogs
+        '
+        Me.buttonReadOld64bitChangelogs.Location = New System.Drawing.Point(13, 336)
+        Me.buttonReadOld64bitChangelogs.Name = "buttonReadOld64bitChangelogs"
+        Me.buttonReadOld64bitChangelogs.Size = New System.Drawing.Size(187, 39)
+        Me.buttonReadOld64bitChangelogs.TabIndex = 4
+        Me.buttonReadOld64bitChangelogs.Text = "Read the Old 64-bit Changelogs"
+        Me.buttonReadOld64bitChangelogs.UseVisualStyleBackColor = True
+        '
         'GroupBox9
         '
         Me.GroupBox9.Controls.Add(Me.ThreeTwoBitHist)
@@ -586,7 +594,7 @@ Partial Class Main
         Me.UpdateHistoryTextBox.Location = New System.Drawing.Point(7, 16)
         Me.UpdateHistoryTextBox.Name = "UpdateHistoryTextBox"
         Me.UpdateHistoryTextBox.ReadOnly = True
-        Me.UpdateHistoryTextBox.Size = New System.Drawing.Size(193, 212)
+        Me.UpdateHistoryTextBox.Size = New System.Drawing.Size(193, 314)
         Me.UpdateHistoryTextBox.TabIndex = 0
         Me.UpdateHistoryTextBox.Text = resources.GetString("UpdateHistoryTextBox.Text")
         '
@@ -710,15 +718,6 @@ Partial Class Main
         Me.ToolStripContainer1.TabIndex = 1
         Me.ToolStripContainer1.Text = "ToolStripContainer1"
         Me.ToolStripContainer1.TopToolStripPanelVisible = False
-        '
-        'buttonReadOld64bitChangelogs
-        '
-        Me.buttonReadOld64bitChangelogs.Location = New System.Drawing.Point(7, 241)
-        Me.buttonReadOld64bitChangelogs.Name = "buttonReadOld64bitChangelogs"
-        Me.buttonReadOld64bitChangelogs.Size = New System.Drawing.Size(193, 73)
-        Me.buttonReadOld64bitChangelogs.TabIndex = 4
-        Me.buttonReadOld64bitChangelogs.Text = "Read the Old 64-bit Changelogs"
-        Me.buttonReadOld64bitChangelogs.UseVisualStyleBackColor = True
         '
         'Main
         '
