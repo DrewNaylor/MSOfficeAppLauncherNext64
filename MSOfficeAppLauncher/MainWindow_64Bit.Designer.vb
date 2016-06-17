@@ -229,7 +229,7 @@ Partial Class Main
         'PictureBox9
         '
         Me.PictureBox9.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.Onenote
-        Me.PictureBox9.Location = New System.Drawing.Point(24, 216)
+        Me.PictureBox9.Location = New System.Drawing.Point(24, 210)
         Me.PictureBox9.Name = "PictureBox9"
         Me.PictureBox9.Size = New System.Drawing.Size(60, 50)
         Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -239,7 +239,7 @@ Partial Class Main
         'PictureBox10
         '
         Me.PictureBox10.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.picture_manager
-        Me.PictureBox10.Location = New System.Drawing.Point(21, 154)
+        Me.PictureBox10.Location = New System.Drawing.Point(21, 147)
         Me.PictureBox10.Name = "PictureBox10"
         Me.PictureBox10.Size = New System.Drawing.Size(63, 50)
         Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -270,7 +270,7 @@ Partial Class Main
         '
         Me.Button13.AccessibleDescription = "This will open in your system tray and on the screen"
         Me.Button13.AccessibleName = "Launch Microsoft OneNote Quick Launcher"
-        Me.Button13.Location = New System.Drawing.Point(93, 216)
+        Me.Button13.Location = New System.Drawing.Point(93, 210)
         Me.Button13.Name = "Button13"
         Me.Button13.Size = New System.Drawing.Size(105, 50)
         Me.Button13.TabIndex = 13
@@ -280,7 +280,7 @@ Partial Class Main
         'Button12
         '
         Me.Button12.AccessibleName = "Launch Microsoft Picture Manager"
-        Me.Button12.Location = New System.Drawing.Point(93, 154)
+        Me.Button12.Location = New System.Drawing.Point(93, 147)
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(105, 50)
         Me.Button12.TabIndex = 12
