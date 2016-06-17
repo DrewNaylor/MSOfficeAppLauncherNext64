@@ -184,7 +184,7 @@ Partial Class Main
         Me.Button15.AccessibleName = "General Options for Drew's Office App Launcher"
         Me.Button15.Location = New System.Drawing.Point(93, 90)
         Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(97, 44)
+        Me.Button15.Size = New System.Drawing.Size(105, 44)
         Me.Button15.TabIndex = 15
         Me.Button15.Text = "General Options"
         Me.Button15.UseVisualStyleBackColor = True
@@ -202,9 +202,9 @@ Partial Class Main
         'Button14
         '
         Me.Button14.AccessibleName = "Open the Office 2010 Language Preferences"
-        Me.Button14.Location = New System.Drawing.Point(93, 33)
+        Me.Button14.Location = New System.Drawing.Point(93, 34)
         Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(97, 50)
+        Me.Button14.Size = New System.Drawing.Size(105, 50)
         Me.Button14.TabIndex = 14
         Me.Button14.Text = "Office 2010 Language Preferences"
         Me.Button14.UseVisualStyleBackColor = True
@@ -270,9 +270,9 @@ Partial Class Main
         '
         Me.Button13.AccessibleDescription = "This will open in your system tray and on the screen"
         Me.Button13.AccessibleName = "Launch Microsoft OneNote Quick Launcher"
-        Me.Button13.Location = New System.Drawing.Point(87, 216)
+        Me.Button13.Location = New System.Drawing.Point(93, 216)
         Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(97, 50)
+        Me.Button13.Size = New System.Drawing.Size(105, 50)
         Me.Button13.TabIndex = 13
         Me.Button13.Text = "OneNote Quick Launcher"
         Me.Button13.UseVisualStyleBackColor = True
@@ -280,9 +280,9 @@ Partial Class Main
         'Button12
         '
         Me.Button12.AccessibleName = "Launch Microsoft Picture Manager"
-        Me.Button12.Location = New System.Drawing.Point(87, 154)
+        Me.Button12.Location = New System.Drawing.Point(93, 154)
         Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(97, 50)
+        Me.Button12.Size = New System.Drawing.Size(105, 50)
         Me.Button12.TabIndex = 12
         Me.Button12.Text = "Microsoft Picture Manager"
         Me.Button12.UseVisualStyleBackColor = True
@@ -290,9 +290,9 @@ Partial Class Main
         'Button11
         '
         Me.Button11.AccessibleName = "Launch Microsoft Clip Organizer"
-        Me.Button11.Location = New System.Drawing.Point(87, 84)
+        Me.Button11.Location = New System.Drawing.Point(93, 84)
         Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(97, 50)
+        Me.Button11.Size = New System.Drawing.Size(105, 50)
         Me.Button11.TabIndex = 11
         Me.Button11.Text = "Microsoft Clip Organizer"
         Me.Button11.UseVisualStyleBackColor = True
@@ -300,9 +300,9 @@ Partial Class Main
         'Button10
         '
         Me.Button10.AccessibleName = "Launch Microsoft Query"
-        Me.Button10.Location = New System.Drawing.Point(87, 28)
+        Me.Button10.Location = New System.Drawing.Point(93, 28)
         Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(97, 50)
+        Me.Button10.Size = New System.Drawing.Size(105, 50)
         Me.Button10.TabIndex = 10
         Me.Button10.Text = "Microsoft Query (2010?)"
         Me.Button10.UseVisualStyleBackColor = True
@@ -327,7 +327,7 @@ Partial Class Main
         'PictureBox8
         '
         Me.PictureBox8.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.Sharepoint_Workspace
-        Me.PictureBox8.Location = New System.Drawing.Point(7, 220)
+        Me.PictureBox8.Location = New System.Drawing.Point(7, 210)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(50, 50)
         Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -337,7 +337,7 @@ Partial Class Main
         'PictureBox7
         '
         Me.PictureBox7.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.Publisher
-        Me.PictureBox7.Location = New System.Drawing.Point(7, 154)
+        Me.PictureBox7.Location = New System.Drawing.Point(7, 147)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(50, 50)
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -367,7 +367,7 @@ Partial Class Main
         'Button8
         '
         Me.Button8.AccessibleName = "Launch Microsoft SharePoint Workspace 2010"
-        Me.Button8.Location = New System.Drawing.Point(63, 220)
+        Me.Button8.Location = New System.Drawing.Point(63, 210)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(105, 50)
         Me.Button8.TabIndex = 9
@@ -377,7 +377,7 @@ Partial Class Main
         'Button3
         '
         Me.Button3.AccessibleName = "Launch Microsoft InfoPath 2010"
-        Me.Button3.Location = New System.Drawing.Point(63, 86)
+        Me.Button3.Location = New System.Drawing.Point(63, 84)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(105, 50)
         Me.Button3.TabIndex = 7
@@ -387,7 +387,7 @@ Partial Class Main
         'Button7
         '
         Me.Button7.AccessibleName = "Launch Microsoft Publisher 2010"
-        Me.Button7.Location = New System.Drawing.Point(63, 154)
+        Me.Button7.Location = New System.Drawing.Point(63, 147)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(105, 50)
         Me.Button7.TabIndex = 8
@@ -426,9 +426,9 @@ Partial Class Main
         'PictureBox4
         '
         Me.PictureBox4.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.Word
-        Me.PictureBox4.Location = New System.Drawing.Point(7, 299)
+        Me.PictureBox4.Location = New System.Drawing.Point(7, 273)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(47, 50)
+        Me.PictureBox4.Size = New System.Drawing.Size(50, 50)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox4.TabIndex = 19
         Me.PictureBox4.TabStop = False
@@ -436,9 +436,9 @@ Partial Class Main
         'PictureBox3
         '
         Me.PictureBox3.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.Powerpoint
-        Me.PictureBox3.Location = New System.Drawing.Point(7, 225)
+        Me.PictureBox3.Location = New System.Drawing.Point(7, 210)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(47, 50)
+        Me.PictureBox3.Size = New System.Drawing.Size(50, 50)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox3.TabIndex = 18
         Me.PictureBox3.TabStop = False
@@ -446,9 +446,9 @@ Partial Class Main
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.Outlook
-        Me.PictureBox2.Location = New System.Drawing.Point(7, 154)
+        Me.PictureBox2.Location = New System.Drawing.Point(7, 147)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(47, 50)
+        Me.PictureBox2.Size = New System.Drawing.Size(50, 50)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox2.TabIndex = 17
         Me.PictureBox2.TabStop = False
@@ -458,7 +458,7 @@ Partial Class Main
         Me.PictureBox1.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.Onenote
         Me.PictureBox1.Location = New System.Drawing.Point(7, 84)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(47, 50)
+        Me.PictureBox1.Size = New System.Drawing.Size(50, 50)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 16
         Me.PictureBox1.TabStop = False
@@ -468,7 +468,7 @@ Partial Class Main
         Me.PictureBox14.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.Excel
         Me.PictureBox14.Location = New System.Drawing.Point(7, 20)
         Me.PictureBox14.Name = "PictureBox14"
-        Me.PictureBox14.Size = New System.Drawing.Size(47, 50)
+        Me.PictureBox14.Size = New System.Drawing.Size(50, 50)
         Me.PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox14.TabIndex = 15
         Me.PictureBox14.TabStop = False
@@ -476,7 +476,7 @@ Partial Class Main
         'Button9
         '
         Me.Button9.AccessibleName = "Launch Microsoft Word 2010"
-        Me.Button9.Location = New System.Drawing.Point(60, 299)
+        Me.Button9.Location = New System.Drawing.Point(63, 273)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(105, 50)
         Me.Button9.TabIndex = 5
@@ -486,7 +486,7 @@ Partial Class Main
         'Button6
         '
         Me.Button6.AccessibleName = "Launch Microsoft PowerPoint 2010"
-        Me.Button6.Location = New System.Drawing.Point(60, 225)
+        Me.Button6.Location = New System.Drawing.Point(63, 210)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(105, 50)
         Me.Button6.TabIndex = 4
@@ -496,7 +496,7 @@ Partial Class Main
         'Button5
         '
         Me.Button5.AccessibleName = "Launch Microsoft Outlook 2010"
-        Me.Button5.Location = New System.Drawing.Point(60, 154)
+        Me.Button5.Location = New System.Drawing.Point(63, 147)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(105, 50)
         Me.Button5.TabIndex = 3
@@ -506,7 +506,7 @@ Partial Class Main
         'Button4
         '
         Me.Button4.AccessibleName = "Launch Microsoft OneNote 2010"
-        Me.Button4.Location = New System.Drawing.Point(60, 84)
+        Me.Button4.Location = New System.Drawing.Point(63, 84)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(105, 50)
         Me.Button4.TabIndex = 2
@@ -516,7 +516,7 @@ Partial Class Main
         'Button2
         '
         Me.Button2.AccessibleName = "Launch Microsoft Excel 2010"
-        Me.Button2.Location = New System.Drawing.Point(60, 20)
+        Me.Button2.Location = New System.Drawing.Point(63, 20)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(105, 50)
         Me.Button2.TabIndex = 1
