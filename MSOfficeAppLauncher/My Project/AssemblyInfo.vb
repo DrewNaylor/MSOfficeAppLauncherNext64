@@ -9,9 +9,9 @@ Imports System.Runtime.InteropServices
 ' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("MSOffice2010AppLauncherNext64")> 
-<Assembly: AssemblyDescription("Microsoft Office 2010 Application Launcher - Get your apps launched quicker! Launcher made by Drew Naylor using Visual Basic 2010 Express. Office and all related trademarks are copyright Microsoft Corp. All Rights Reserved.")> 
+<Assembly: AssemblyDescription("Drew's App Launcher for Office 2010 ProPlus - Get your apps launched quicker! This is a third-party app and has no relation to Microsoft. Office and all related trademarks are copyright Microsoft Corp. All of Microsoft's Rights are Reserved to them.")> 
 <Assembly: AssemblyCompany("Drew N.")> 
-<Assembly: AssemblyProduct("App Launcher for Office 2010")> 
+<Assembly: AssemblyProduct("Drew's App Launcher for Office 2010")> 
 <Assembly: AssemblyCopyright("Copyright 2013-2016 Drew Naylor. Licensed under the Gnu GPL v3+ and Drew's Modification Exception")> 
 <Assembly: AssemblyTrademark("")> 
 
