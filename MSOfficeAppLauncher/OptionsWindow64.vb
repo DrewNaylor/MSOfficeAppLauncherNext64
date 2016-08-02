@@ -39,7 +39,7 @@ Public Class OptionsWindow64
 
             'Display a message box when the user presses characters that aren't allowed.
             e.Handled = True
-            MessageBox.Show("You can only type capital letters such as A, B, C etc. Click the Clear button to empty the textbox.")
+            MessageBox.Show("You can only type capital letters such as A, B, C etc. Click the Clear Textbox button to empty the textbox.")
 
             'Change the textbox for choosing the drive Office is installed on back to drive C.
             textboxOfficeDrive.Text = "C"

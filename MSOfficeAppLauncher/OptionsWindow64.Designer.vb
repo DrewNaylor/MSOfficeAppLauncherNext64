@@ -136,28 +136,27 @@ Partial Class OptionsWindow64
         '
         Me.buttonClearDrive.AutoSize = True
         Me.buttonClearDrive.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.buttonClearDrive.Location = New System.Drawing.Point(285, 76)
+        Me.buttonClearDrive.Location = New System.Drawing.Point(244, 77)
         Me.buttonClearDrive.Name = "buttonClearDrive"
-        Me.buttonClearDrive.Size = New System.Drawing.Size(41, 23)
+        Me.buttonClearDrive.Size = New System.Drawing.Size(82, 23)
         Me.buttonClearDrive.TabIndex = 2
-        Me.buttonClearDrive.Text = "Clear"
+        Me.buttonClearDrive.Text = "Clear Textbox"
         Me.buttonClearDrive.UseVisualStyleBackColor = True
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(40, 26)
+        Me.Label2.Location = New System.Drawing.Point(32, 25)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(286, 39)
+        Me.Label2.Size = New System.Drawing.Size(294, 39)
         Me.Label2.TabIndex = 0
-        Me.Label2.Text = "Please type in the textbox below the drive you installed" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Microsoft Office on. No" & _
-    "te that you cannot use backspaces," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "lowercase letters (a, b, c,) or numbers/spec" & _
-    "ial characters."
+        Me.Label2.Text = "Please enter the drive you installed Microsoft Office to below." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Special characte" & _
+    "rs are not permitted. Click the Clear" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Textbox button to clear the textbox."
         '
         'textboxOfficeDrive
         '
         Me.textboxOfficeDrive.AccessibleName = "Please type in the textbox the drive you installed"
-        Me.textboxOfficeDrive.Location = New System.Drawing.Point(22, 79)
+        Me.textboxOfficeDrive.Location = New System.Drawing.Point(194, 79)
         Me.textboxOfficeDrive.MaxLength = 1
         Me.textboxOfficeDrive.Name = "textboxOfficeDrive"
         Me.textboxOfficeDrive.ShortcutsEnabled = False
@@ -172,11 +171,11 @@ Partial Class OptionsWindow64
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.ForeColor = System.Drawing.Color.Blue
-        Me.Label1.Location = New System.Drawing.Point(40, 82)
+        Me.Label1.Location = New System.Drawing.Point(19, 82)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(230, 13)
+        Me.Label1.Size = New System.Drawing.Size(169, 13)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = ":\Program Files (X86)\Microsoft Office\Office14"
+        Me.Label1.Text = "I installed Microsoft Office to drive:"
         '
         'OptionsWindow64
         '
