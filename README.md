@@ -71,6 +71,7 @@ Ignore the Windows 10 message on that page, scroll down, and click the orange Do
 - Microsoft .Net Framework 4.0 (Included with VS 2010.)
 - The latest updates for VS 2010.
 - Microsoft Office 2010 Professional (or Professional Plus [this app was made for the ProPlus version.]) If you don't have Office or don't want to install Office, you can actually use a collection of dummy files I made called "dummyOffice." They are made up of just a window that says "You have successfully launched the [app] dummy component. Click Ok to continue." I will soon release them but right now I am just getting everything up-to-speed on GitHub. I won't provide an actual installer for the dummy components as I don't want people messing up their installation of Office. Once it's released, only install dummyOffice if you know what you're doing!
+- Windows PowerShell. I set up a pre-build event which uses PowerShell to write the current date out to a text document. Note that if you're building from source code available before August 2, 2016, PowerShell is not required.
 
 --
 
