@@ -30,16 +30,46 @@
 
 Public Class Main
 
+    ' Create a string out of the BuildDate file.
+    Dim InsertBuildDate As String = My.Resources.BuildDate
+
     ' Open the Options window using the secret button.
     'Private Sub zSecretOptionsButton_Click(sender As System.Object, e As System.EventArgs) Handles zSecretOptionsButton.Click
     '   OptionsWindow64.ShowDialog()
     'End Sub
 
-    ' This code is used to work around label text being copied to the clipboard when the user double-clicks on the zSecretOptionsButton label.
-    ' Comment out "zSecretOptionsButton.Hide()" code below and uncomment the code block above to use the secret button located below the "General Options" button.
 
     Private Sub Main_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
+
+        ' This code is used to work around label text being copied to the clipboard when the user double-clicks on the zSecretOptionsButton label.
+        ' Comment out "zSecretOptionsButton.Hide()" code below and uncomment the code block above to use the secret button located below the "General Options" button.
         zSecretOptionsButton.Hide()
+
+
+        ' Put the text in the About box on launch.
+        TextBox1.Text = ("Drew's App Launcher for Microsoft Office 2010 ProPlus" & Environment.NewLine)
+        TextBox1.AppendText("Version 2.8 Snapshot Preview 2" & Environment.NewLine)
+        TextBox1.AppendText("Compiled for 64-bit systems with a 32-bit installation of Office 2010" & Environment.NewLine)
+        TextBox1.AppendText("" & Environment.NewLine)
+        TextBox1.AppendText("Copyright (C) 2013-2016 Drew Naylor" & Environment.NewLine)
+        TextBox1.AppendText("This app is designed to quickly and easily launch Office 2010 ProPlus software." & Environment.NewLine)
+        TextBox1.AppendText("It can also clear up space on your desktop." & Environment.NewLine)
+        TextBox1.AppendText("I am not intending on infringing on Microsoft's copyrights, so this is only a shortcut application." & Environment.NewLine)
+        TextBox1.AppendText("" & Environment.NewLine)
+        ' Note: In order for the date and time to be updated, you must tell Visual Studio to build the project BEFORE debugging it. In VS2010, you can right-click
+        ' on the toolbar at the top of the window and click "Build" to add the Build Toolbar.
+        TextBox1.AppendText("App compiled at UTC " + InsertBuildDate)
+        TextBox1.AppendText("" & Environment.NewLine)
+        TextBox1.AppendText("Copyright notice: Office, Microsoft Office, Word, Excel, PowerPoint, and all related words (by MSFT) are Copyright [a long time ago]-[sometime in the future] Microsoft Corp. All Rights Reserved for Microsoft's copyrights." & Environment.NewLine)
+        TextBox1.AppendText("" & Environment.NewLine)
+        TextBox1.AppendText("This application is licensed under the Gnu GPL v3+ and Drew's Modification Exception.")
+
+        ' Put the text in the Notes box on launch.
+        TextBox2.Text = ("--> This app was made for launching the default apps in Microsoft Office 2010 ProPlus. Not all Office 2010 app shortcuts are included." & Environment.NewLine)
+        TextBox2.AppendText("--> THIS IS PRERELEASE SOFTWARE! Use at your own risk. At least while the version is a ''Snapshot Preview.'' This Snapshot Preview is largely how the code appeared on the compile date." & Environment.NewLine)
+        TextBox2.AppendText("--> If you didn't get a copy of the GPL v3 and Drew's Modification Exception in the download, you can grab a copy of it from the link below which says, ''Visit the GitHub Repo...'' Scroll down on that page and open the file that's called LICENSE.")
+
+
     End Sub
 
 #Region "Applications to launch."
