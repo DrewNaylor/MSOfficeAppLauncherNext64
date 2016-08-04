@@ -38,13 +38,11 @@ Public Class Main
     '   OptionsWindow64.ShowDialog()
     'End Sub
 
-
     Private Sub Main_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
 
         ' This code is used to work around label text being copied to the clipboard when the user double-clicks on the zSecretOptionsButton label.
         ' Comment out "zSecretOptionsButton.Hide()" code below and uncomment the code block above to use the secret button located below the "General Options" button.
         zSecretOptionsButton.Hide()
-
 
         ' Put the text in the About box on launch.
         TextBox1.Text = ("Drew's App Launcher for Microsoft Office 2010 ProPlus" & Environment.NewLine)
@@ -70,8 +68,6 @@ Public Class Main
         TextBox2.AppendText("--> Although this software is at Release Preview 1, it should still be considered prerelease and potentially unstable. Release Preview 1 is a renamed version of Snapshot Preview 2." & Environment.NewLine)
         TextBox2.AppendText("" & Environment.NewLine)
         TextBox2.AppendText("--> If you didn't get a copy of the GPL v3 and Drew's Modification Exception in the download, you can grab a copy of it from the link below which says, ''Visit the GitHub Repo...'' Scroll down on that page and open the file that's called LICENSE.")
-
-
     End Sub
 
 #Region "Applications to launch."
@@ -147,7 +143,6 @@ Public Class Main
         Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\SETLANG.EXE")
     End Sub
 #End Region
-
 
     ' Open the version history - 32-bit
     Private Sub ThreeTwoBitHist_Click(sender As System.Object, e As System.EventArgs) Handles ThreeTwoBitHist.Click
