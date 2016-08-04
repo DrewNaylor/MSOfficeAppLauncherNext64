@@ -48,7 +48,7 @@ Public Class Main
 
         ' Put the text in the About box on launch.
         TextBox1.Text = ("Drew's App Launcher for Microsoft Office 2010 ProPlus" & Environment.NewLine)
-        TextBox1.AppendText("Version 2.8 Snapshot Preview 2" & Environment.NewLine)
+        TextBox1.AppendText("Version 2.8 Release Preview 1" & Environment.NewLine)
         TextBox1.AppendText("Compiled for 64-bit systems with a 32-bit installation of Office 2010" & Environment.NewLine)
         TextBox1.AppendText("" & Environment.NewLine)
         TextBox1.AppendText("Copyright (C) 2013-2016 Drew Naylor" & Environment.NewLine)
@@ -66,7 +66,9 @@ Public Class Main
 
         ' Put the text in the Notes box on launch.
         TextBox2.Text = ("--> This app was made for launching the default apps in Microsoft Office 2010 ProPlus. Not all Office 2010 app shortcuts are included." & Environment.NewLine)
-        TextBox2.AppendText("--> THIS IS PRERELEASE SOFTWARE! Use at your own risk. At least while the version is a ''Snapshot Preview.'' This Snapshot Preview is largely how the code appeared on the compile date." & Environment.NewLine)
+        TextBox2.AppendText("" & Environment.NewLine)
+        TextBox2.AppendText("--> Although this software is at Release Preview 1, it should still be considered prerelease and potentially unstable. Release Preview 1 is a renamed version of Snapshot Preview 2." & Environment.NewLine)
+        TextBox2.AppendText("" & Environment.NewLine)
         TextBox2.AppendText("--> If you didn't get a copy of the GPL v3 and Drew's Modification Exception in the download, you can grab a copy of it from the link below which says, ''Visit the GitHub Repo...'' Scroll down on that page and open the file that's called LICENSE.")
 
 
