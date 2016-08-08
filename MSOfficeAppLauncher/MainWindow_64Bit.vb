@@ -65,7 +65,7 @@ Public Class Main
         ' Put the text in the Notes box on launch.
         TextBox2.Text = ("--> This app was made for launching the default apps in Microsoft Office 2010 ProPlus. Not all Office 2010 app shortcuts are included." & Environment.NewLine)
         TextBox2.AppendText("" & Environment.NewLine)
-        TextBox2.AppendText("--> Although this software is at Release Preview 1, it should still be considered prerelease and potentially unstable. Release Preview 1 is a renamed version of Snapshot Preview 2." & Environment.NewLine)
+        TextBox2.AppendText("--> After this release (version 2.8) I will start on version 3.0 which is a rewrite of this app. Learn more by visiting the GitHub repository below." & Environment.NewLine)
         TextBox2.AppendText("" & Environment.NewLine)
         TextBox2.AppendText("--> If you didn't get a copy of the GPL v3 and Drew's Modification Exception in the download, you can grab a copy of it from the link below which says, ''Visit the GitHub Repo...'' Scroll down on that page and open the file that's called LICENSE.")
     End Sub
