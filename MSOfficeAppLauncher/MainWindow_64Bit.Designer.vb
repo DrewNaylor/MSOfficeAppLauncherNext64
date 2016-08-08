@@ -22,9 +22,8 @@ Partial Class Main
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Main))
-        Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
+        Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
@@ -187,7 +186,7 @@ Partial Class Main
         Me.Button15.Name = "Button15"
         Me.Button15.Size = New System.Drawing.Size(105, 44)
         Me.Button15.TabIndex = 15
-        Me.Button15.Text = "General Options"
+        Me.Button15.Text = "General Options..."
         Me.Button15.UseVisualStyleBackColor = True
         '
         'PictureBox11
