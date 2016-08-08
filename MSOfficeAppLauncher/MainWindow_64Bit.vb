@@ -46,7 +46,7 @@ Public Class Main
 
         ' Put the text in the About box on launch.
         TextBox1.Text = ("Drew's App Launcher for Microsoft Office 2010 ProPlus" & Environment.NewLine)
-        TextBox1.AppendText("Version 2.8 Release Preview 1" & Environment.NewLine)
+        TextBox1.AppendText("Version 2.8 Stable - Codename ''Last Huzzah''" & Environment.NewLine)
         TextBox1.AppendText("Compiled for 64-bit systems with a 32-bit installation of Office 2010" & Environment.NewLine)
         TextBox1.AppendText("" & Environment.NewLine)
         TextBox1.AppendText("Copyright (C) 2013-2016 Drew Naylor" & Environment.NewLine)
