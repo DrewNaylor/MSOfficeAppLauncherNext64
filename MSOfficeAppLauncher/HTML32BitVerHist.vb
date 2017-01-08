@@ -1,5 +1,5 @@
 ﻿'Drew's MS Office App Launcher (64-bit) - Launch Office Apps Quickly!
-'Copyright (C) 2013-2016  Drew Naylor
+'Copyright (C) 2013-2017  Drew Naylor
 'Microsoft Office is copyright Microsoft Corp.
 '(Note that the copyright years include the years left out by the hyphen.)
 '

@@ -1,5 +1,5 @@
 ﻿'Drew's MS Office App Launcher (64-bit) - Launch Office Apps Quickly!
-'Copyright (C) 2013-2016  Drew Naylor
+'Copyright (C) 2013-2017  Drew Naylor
 'Microsoft Office is copyright Microsoft Corp.
 '(Note that the copyright years include the years left out by the hyphen.)
 '
@@ -44,12 +44,13 @@ Public Class Main
         ' Comment out "zSecretOptionsButton.Hide()" code below and uncomment the code block above to use the secret button located below the "General Options" button.
         zSecretOptionsButton.Hide()
 
+
         ' Put the text in the About box on launch.
         TextBox1.Text = ("Drew's App Launcher for Microsoft Office 2010 ProPlus" & Environment.NewLine)
-        TextBox1.AppendText("Version 2.8 Stable - Codename ''Last Huzzah''" & Environment.NewLine)
+        TextBox1.AppendText("Version 2.8.1 - Codename ''Resized Images''" & Environment.NewLine)
         TextBox1.AppendText("Compiled for 64-bit systems with a 32-bit installation of Office 2010" & Environment.NewLine)
         TextBox1.AppendText("" & Environment.NewLine)
-        TextBox1.AppendText("Copyright (C) 2013-2016 Drew Naylor" & Environment.NewLine)
+        TextBox1.AppendText("Copyright (C) 2013-2017 Drew Naylor" & Environment.NewLine)
         TextBox1.AppendText("This app is designed to quickly and easily launch Office 2010 ProPlus software." & Environment.NewLine)
         TextBox1.AppendText("It can also clear up space on your desktop." & Environment.NewLine)
         TextBox1.AppendText("I am not intending on infringing on Microsoft's copyrights, so this is only a shortcut application." & Environment.NewLine)
@@ -187,4 +188,6 @@ Public Class Main
     Private Sub LinkLabel3_LinkClicked(sender As System.Object, e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel3.LinkClicked
         Process.Start("https://github.com/DrewNaylor/MSOfficeAppLauncherNext64/")
     End Sub
+
+
 End Class

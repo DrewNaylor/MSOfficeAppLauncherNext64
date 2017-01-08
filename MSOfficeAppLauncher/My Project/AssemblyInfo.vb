@@ -12,7 +12,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("Drew's App Launcher for Office 2010 ProPlus - Get your apps launched quicker! This is a third-party app and has no relation to Microsoft. Office and all related trademarks are copyright Microsoft Corp. All of Microsoft's Rights are Reserved to them.")> 
 <Assembly: AssemblyCompany("Drew N.")> 
 <Assembly: AssemblyProduct("Drew's App Launcher for Office 2010")> 
-<Assembly: AssemblyCopyright("Copyright 2013-2016 Drew Naylor. Licensed under the Gnu GPL v3+ and Drew's Modification Exception")> 
+<Assembly: AssemblyCopyright("Copyright 2013-2017 Drew Naylor. Licensed under the Gnu GPL v3+ and Drew's Modification Exception")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("2.8.0.0")> 
-<Assembly: AssemblyFileVersion("2.8.0.0")> 
+<Assembly: AssemblyVersion("2.8.1.0")> 
+<Assembly: AssemblyFileVersion("2.8.1.0")> 
