@@ -1,3 +1,6 @@
+# Notice of Deprecation
+**Important:** Drew's App Launcher is no longer officially supported after version 2.8.x. Visit the [UXL Launcher repository](https://github.com/DrewNaylor/UXL-Launcher) for the new version of the application launcher. Do note that Windows XP and Windows Vista are only officially supported with Drew's App Launcher version 2.8.x and below. UXL Launcher will not work on those operating system versions officially.
+
 # Welcome to the repository for my App Launcher for Microsoft Office 2010!
 This is the 64-bit version. Read the file "LICENSE" in a text editor for the entire license. The readme continues after this notice.
 
