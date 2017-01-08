@@ -744,7 +744,7 @@ Partial Class Main
         Me.MinimumSize = New System.Drawing.Size(520, 520)
         Me.Name = "Main"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Drew's App Launcher for Office 2010 ProPlus (64-bit Edition, Version 2.8 Stable)"
+        Me.Text = "Drew's App Launcher for Office 2010 ProPlus (64-bit Edition, Version 2.8.1)"
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.GroupBox5.ResumeLayout(False)
