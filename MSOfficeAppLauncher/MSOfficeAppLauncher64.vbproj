@@ -189,6 +189,18 @@
     <Content Include="32x32.ico" />
     <Content Include="64x64.ico" />
     <Content Include="applauncher-icon.ico" />
+    <None Include="Resources\Clip Organizer-75x64.png" />
+    <None Include="Resources\picture manager-64x64.png" />
+    <None Include="Resources\Query-64x64.png" />
+    <None Include="Resources\ExcelLargeSVG-3D.png" />
+    <None Include="Resources\AccessLargeSVG-3D.png" />
+    <None Include="Resources\WordLargeSVG-3D.png" />
+    <None Include="Resources\SharepointLargeSVG-3D.png" />
+    <None Include="Resources\PublisherLargeSVG-3D.png" />
+    <None Include="Resources\PowerpointLargeSVG-3D.png" />
+    <None Include="Resources\OutlookLargeSVG-3D.png" />
+    <None Include="Resources\OnenoteLargeSVG-3D.png" />
+    <None Include="Resources\InfopathLargeSVG-3D.png" />
     <None Include="Resources\applauncher_icons_info_TXT.txt" />
     <None Include="Resources\BuildDate.txt" />
     <None Include="Resources\64x64.png" />
@@ -199,21 +211,7 @@
     <None Include="Resources\64x64.ico" />
     <None Include="Resources\32x32.ico" />
     <None Include="Resources\applauncher-icon-old.ico" />
-    <None Include="Resources\hidden_text1.png" />
-    <None Include="Resources\hidden_text.png" />
-    <None Include="Resources\Word.png" />
-    <None Include="Resources\Sharepoint Workspace.png" />
-    <None Include="Resources\Publisher.png" />
-    <None Include="Resources\Powerpoint.png" />
-    <None Include="Resources\picture manager.png" />
-    <None Include="Resources\Outlook.png" />
-    <None Include="Resources\Onenote.png" />
-    <None Include="Resources\Microsoft Query.png" />
     <None Include="Resources\Language Settings.png" />
-    <None Include="Resources\Infopath.png" />
-    <None Include="Resources\Excel.png" />
-    <None Include="Resources\Clip Organizer.png" />
-    <None Include="Resources\Access.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">

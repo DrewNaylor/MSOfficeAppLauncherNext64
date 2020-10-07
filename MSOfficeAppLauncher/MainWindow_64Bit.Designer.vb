@@ -229,7 +229,7 @@ Partial Class Main
         '
         'PictureBox9
         '
-        Me.PictureBox9.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.Onenote
+        Me.PictureBox9.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.OnenoteLargeSVG_3D
         Me.PictureBox9.Location = New System.Drawing.Point(34, 210)
         Me.PictureBox9.Name = "PictureBox9"
         Me.PictureBox9.Size = New System.Drawing.Size(50, 50)
@@ -239,7 +239,7 @@ Partial Class Main
         '
         'PictureBox10
         '
-        Me.PictureBox10.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.picture_manager
+        Me.PictureBox10.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.picture_manager_64x64
         Me.PictureBox10.Location = New System.Drawing.Point(34, 147)
         Me.PictureBox10.Name = "PictureBox10"
         Me.PictureBox10.Size = New System.Drawing.Size(50, 50)
@@ -249,7 +249,7 @@ Partial Class Main
         '
         'PictureBox12
         '
-        Me.PictureBox12.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.Clip_Organizer
+        Me.PictureBox12.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.Clip_Organizer_75x64
         Me.PictureBox12.Location = New System.Drawing.Point(34, 84)
         Me.PictureBox12.Name = "PictureBox12"
         Me.PictureBox12.Size = New System.Drawing.Size(50, 50)
@@ -259,7 +259,7 @@ Partial Class Main
         '
         'PictureBox13
         '
-        Me.PictureBox13.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.Microsoft_Query
+        Me.PictureBox13.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.Query_64x64
         Me.PictureBox13.Location = New System.Drawing.Point(34, 28)
         Me.PictureBox13.Name = "PictureBox13"
         Me.PictureBox13.Size = New System.Drawing.Size(50, 50)
@@ -327,7 +327,7 @@ Partial Class Main
         '
         'PictureBox8
         '
-        Me.PictureBox8.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.Sharepoint_Workspace
+        Me.PictureBox8.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.SharepointLargeSVG_3D
         Me.PictureBox8.Location = New System.Drawing.Point(7, 210)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(50, 50)
@@ -337,7 +337,7 @@ Partial Class Main
         '
         'PictureBox7
         '
-        Me.PictureBox7.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.Publisher
+        Me.PictureBox7.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.PublisherLargeSVG_3D
         Me.PictureBox7.Location = New System.Drawing.Point(7, 147)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(50, 50)
@@ -347,7 +347,7 @@ Partial Class Main
         '
         'PictureBox6
         '
-        Me.PictureBox6.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.Infopath
+        Me.PictureBox6.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.InfopathLargeSVG_3D
         Me.PictureBox6.Location = New System.Drawing.Point(7, 86)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(50, 50)
@@ -357,7 +357,7 @@ Partial Class Main
         '
         'PictureBox5
         '
-        Me.PictureBox5.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.Access
+        Me.PictureBox5.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.AccessLargeSVG_3D
         Me.PictureBox5.Location = New System.Drawing.Point(7, 20)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(50, 50)
@@ -426,7 +426,7 @@ Partial Class Main
         '
         'PictureBox4
         '
-        Me.PictureBox4.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.Word
+        Me.PictureBox4.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.WordLargeSVG_3D
         Me.PictureBox4.Location = New System.Drawing.Point(7, 273)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(50, 50)
@@ -436,7 +436,7 @@ Partial Class Main
         '
         'PictureBox3
         '
-        Me.PictureBox3.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.Powerpoint
+        Me.PictureBox3.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.PowerpointLargeSVG_3D
         Me.PictureBox3.Location = New System.Drawing.Point(7, 210)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(50, 50)
@@ -446,7 +446,7 @@ Partial Class Main
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.Outlook
+        Me.PictureBox2.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.OutlookLargeSVG_3D
         Me.PictureBox2.Location = New System.Drawing.Point(7, 147)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(50, 50)
@@ -456,7 +456,7 @@ Partial Class Main
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.Onenote
+        Me.PictureBox1.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.OnenoteLargeSVG_3D
         Me.PictureBox1.Location = New System.Drawing.Point(7, 84)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(50, 50)
@@ -466,7 +466,7 @@ Partial Class Main
         '
         'PictureBox14
         '
-        Me.PictureBox14.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.Excel
+        Me.PictureBox14.Image = Global.MSOfficeAppLauncher.My.Resources.Resources.ExcelLargeSVG_3D
         Me.PictureBox14.Location = New System.Drawing.Point(7, 20)
         Me.PictureBox14.Name = "PictureBox14"
         Me.PictureBox14.Size = New System.Drawing.Size(50, 50)
