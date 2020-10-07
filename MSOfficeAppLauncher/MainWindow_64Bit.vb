@@ -74,75 +74,87 @@ Public Class Main
 
 #Region "Applications to launch."
 
+    ' Catch-all error handler and launcher.
+    Private Sub LaunchApp(ExeToLaunch As String, ExeFriendlyName As String)
+        ' Do a try...catch like 3.x so there's a nice error message if it goes wrong.
+        Try
+            Process.Start(My.Settings.officeDriveLocation.ToString & ":\Program Files (x86)\Microsoft Office\Office14\" & ExeToLaunch.ToString)
+        Catch ex As Exception
+            ' If we can't find the program, let the user know.
+            MessageBox.Show("We couldn't find " & ExeFriendlyName.ToString & " in " & """" & My.Settings.officeDriveLocation.ToString & ":\Program Files (x86)\Microsoft Office\Office14\""." &
+                            " Please change your drive letter in the Options window, use Drew's App Launcher 32-bit Edition, or upgrade to UXL Launcher instead.", "Couldn't find " & ExeFriendlyName,
+                            MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
+    End Sub
 
     ' Microsoft Access
     Private Sub Button1_Click_1(sender As System.Object, e As System.EventArgs) Handles Button1.Click
-        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\MSACCESS.EXE")
+        LaunchApp("MSACCESS.EXE", Button1.Text.ToString)
     End Sub
 
     ' Excel
     Private Sub Button2_Click(sender As System.Object, e As System.EventArgs) Handles Button2.Click
-        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\EXCEL.EXE")
+        LaunchApp("EXCEL.EXE", Button2.Text.ToString)
     End Sub
 
     ' Infopath
     Private Sub Button3_Click(sender As System.Object, e As System.EventArgs) Handles Button3.Click
-        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\INFOPATH.EXE")
+        LaunchApp("INFOPATH.EXE", Button3.Text.ToString)
     End Sub
 
     ' OneNote
     Private Sub Button4_Click(sender As System.Object, e As System.EventArgs) Handles Button4.Click
-        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\ONENOTE.EXE")
+        LaunchApp("ONENOTE.EXE", Button4.Text.ToString)
     End Sub
 
     ' Outlook
     Private Sub Button5_Click(sender As System.Object, e As System.EventArgs) Handles Button5.Click
-        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\OUTLOOK.EXE")
+        LaunchApp("OUTLOOK.EXE", Button5.Text.ToString)
     End Sub
 
     ' Powerpoint
     Private Sub Button6_Click(sender As System.Object, e As System.EventArgs) Handles Button6.Click
-        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\POWERPNT.EXE")
+        LaunchApp("POWERPNT.EXE", Button6.Text.ToString)
     End Sub
 
     ' SharePoint
     Private Sub Button8_Click(sender As System.Object, e As System.EventArgs) Handles Button8.Click
-        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\GROOVE.EXE")
+        LaunchApp("GROOVE.EXE", Button8.Text.ToString)
     End Sub
 
     ' Microsoft Publisher
     Private Sub Button7_Click(sender As System.Object, e As System.EventArgs) Handles Button7.Click
-        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\MSPUB.EXE")
+        LaunchApp("MSPUB.EXE", Button7.Text.ToString)
     End Sub
 
     ' Microsoft Word
     Private Sub Button9_Click(sender As System.Object, e As System.EventArgs) Handles Button9.Click
-        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\WINWORD.EXE")
+        LaunchApp("WINWORD.EXE", Button9.Text.ToString)
     End Sub
 
     ' Microsoft Query
     Private Sub Button10_Click(sender As System.Object, e As System.EventArgs) Handles Button10.Click
-        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\MSQRY32.EXE")
+        LaunchApp("MSQRY32.EXE", Button10.Text.ToString)
     End Sub
 
     ' Clip Organizer
     Private Sub Button11_Click(sender As System.Object, e As System.EventArgs) Handles Button11.Click
-        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\MSTORE.EXE")
+        LaunchApp("MSTORE.EXE", Button11.Text.ToString)
     End Sub
 
     ' Office Picture Manager
     Private Sub Button12_Click(sender As System.Object, e As System.EventArgs) Handles Button12.Click
-        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\OIS.EXE")
+        LaunchApp("OIS.EXE", Button12.Text.ToString)
     End Sub
 
     ' OneNote Quick Launch
     Private Sub Button13_Click(sender As System.Object, e As System.EventArgs) Handles Button13.Click
-        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\ONENOTEM.EXE")
+        LaunchApp("ONENOTEM.EXE", Button13.Text.ToString)
     End Sub
 
     ' Open the Language Settings.
     Private Sub Button14_Click(sender As System.Object, e As System.EventArgs) Handles Button14.Click
-        Process.Start(My.Settings.officeDriveLocation + ":\Program Files (x86)\Microsoft Office\Office14\SETLANG.EXE")
+        LaunchApp("SETLANG.EXE", Button14.Text.ToString)
     End Sub
 #End Region
 
