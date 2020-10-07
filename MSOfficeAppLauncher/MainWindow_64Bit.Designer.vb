@@ -28,7 +28,6 @@ Partial Class Main
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
-        Me.zSecretOptionsButton = New System.Windows.Forms.Label()
         Me.PictureBox15 = New System.Windows.Forms.PictureBox()
         Me.Button15 = New System.Windows.Forms.Button()
         Me.PictureBox11 = New System.Windows.Forms.PictureBox()
@@ -148,7 +147,6 @@ Partial Class Main
         '
         'GroupBox5
         '
-        Me.GroupBox5.Controls.Add(Me.zSecretOptionsButton)
         Me.GroupBox5.Controls.Add(Me.PictureBox15)
         Me.GroupBox5.Controls.Add(Me.Button15)
         Me.GroupBox5.Controls.Add(Me.PictureBox11)
@@ -159,16 +157,6 @@ Partial Class Main
         Me.GroupBox5.TabIndex = 14
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "Options"
-        '
-        'zSecretOptionsButton
-        '
-        Me.zSecretOptionsButton.AutoSize = True
-        Me.zSecretOptionsButton.ForeColor = System.Drawing.Color.Transparent
-        Me.zSecretOptionsButton.Location = New System.Drawing.Point(18, 144)
-        Me.zSecretOptionsButton.Name = "zSecretOptionsButton"
-        Me.zSecretOptionsButton.Size = New System.Drawing.Size(202, 13)
-        Me.zSecretOptionsButton.TabIndex = 9
-        Me.zSecretOptionsButton.Text = "-----------------------------------------------------------------"
         '
         'PictureBox15
         '
@@ -750,7 +738,6 @@ Partial Class Main
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.GroupBox5.ResumeLayout(False)
-        Me.GroupBox5.PerformLayout()
         CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox7.ResumeLayout(False)
@@ -838,7 +825,6 @@ Partial Class Main
     Friend WithEvents PictureBox10 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox9 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox11 As System.Windows.Forms.PictureBox
-    Friend WithEvents zSecretOptionsButton As System.Windows.Forms.Label
     Friend WithEvents Button15 As System.Windows.Forms.Button
     Friend WithEvents PictureBox15 As System.Windows.Forms.PictureBox
     Friend WithEvents LinkLabel2 As System.Windows.Forms.LinkLabel
