@@ -43,11 +43,8 @@ Public Class OptionsWindow64
 
             'Change the textbox for choosing the drive Office is installed on back to drive C.
             textboxOfficeDrive.Text = "C"
+            textboxOfficeDrive.SelectAll()
         End If
-    End Sub
-
-    Private Sub TextBox1_TextChanged(sender As System.Object, e As System.EventArgs) Handles textboxOfficeDrive.TextChanged
-
     End Sub
 
     Private Sub buttonResetToDefaults_Click(sender As System.Object, e As System.EventArgs) Handles buttonResetToDefaults.Click
@@ -77,11 +74,7 @@ Public Class OptionsWindow64
             My.Settings.officeDriveLocation = textboxOfficeDrive.Text
 
             'Choose how to display the changelogs.
-            If checkboxChangelog.Checked = True Then
-                My.Settings.deprecatedChangelogDisplayMode = True
-            Else
-                My.Settings.deprecatedChangelogDisplayMode = False
-            End If
+            My.Settings.deprecatedChangelogDisplayMode = checkboxChangelog.Checked
 
             'Save settings.
             My.Settings.Save()
@@ -110,15 +103,7 @@ Public Class OptionsWindow64
     Private Sub buttonClearDrive_Click(sender As System.Object, e As System.EventArgs) Handles buttonClearDrive.Click
 
         'Clear the OfficeDrive textbox.
-        textboxOfficeDrive.Text = ""
-        textboxOfficeDrive.Select()
-    End Sub
-
-    Private Sub checkboxChangelog_Click(sender As Object, e As System.EventArgs) Handles checkboxChangelog.Click
-        
-    End Sub
-
-    Private Sub checkboxChangelog_CheckedChanged(sender As System.Object, e As System.EventArgs) Handles checkboxChangelog.CheckedChanged
-
+        textboxOfficeDrive.Text = String.Empty
+        textboxOfficeDrive.Focus()
     End Sub
 End Class
