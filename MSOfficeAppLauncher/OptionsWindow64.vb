@@ -95,8 +95,11 @@ Public Class OptionsWindow64
 
     'When the Options window loads, pull up the user's settings.
     Private Sub OptionsWindow64_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
-        textboxOfficeDrive.Text = My.Settings.officeDriveLocation
+        ' Make sure the officeDriveLocation setting isn't too long first.
+        Main.CheckOfficeDriveLocationSettingLengthForSecurity()
 
+        ' Now load the options.
+        textboxOfficeDrive.Text = My.Settings.officeDriveLocation
         checkboxChangelog.Checked = My.Settings.deprecatedChangelogDisplayMode
     End Sub
 

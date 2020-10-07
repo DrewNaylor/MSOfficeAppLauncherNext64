@@ -35,7 +35,7 @@ Public Class Main
     ' on the toolbar at the top of the window and click "Build" to add the Build Toolbar.
     Dim InsertBuildDate As String = My.Resources.BuildDate
 
-    Private Shared Sub CheckOfficeDriveLocationSettingLengthForSecurity()
+    Friend Shared Sub CheckOfficeDriveLocationSettingLengthForSecurity()
         ' We need to make sure there's only one character in the
         ' officeDriveLocation setting for security purposes.
         If Not My.Settings.officeDriveLocation.Length = 1 Then
