@@ -37,6 +37,31 @@ Icons are provided by the [applauncher-icons project](https://github.com/DrewNay
 'please visit <https://github.com/DrewNaylor/MSOfficeAppLauncherNext32/blob/master/LICENSE.txt>
 ```
 
+applauncher-icons info:
+```text
+applauncher-icons
+By Drew Naylor. Licensed under CC BY 4.0.
+Version 3.0
+
+The applauncher-icons project provides most of the icons used in Drew's App Launcher,
+with the exception of some icons. These include, but are not limited to, the
+Drew's App Launcher logo.
+
+Link to applauncher-icons project repository:
+https://github.com/DrewNaylor/applauncher-icons
+
+Link to applauncher-icons version 3.0 GitHub Releases page:
+https://github.com/DrewNaylor/applauncher-icons/releases/tag/v3.0
+
+No warranty is provided with applauncher-icons. Use at your own risk. Drew Naylor is not responsible
+for any problems that use of applauncher-icons may cause.
+This work is licensed under the Creative Commons Attribution 4.0 International License.
+To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
+
+Microsoft is not associated with either the applauncher-icons project or Drew Naylor and does not
+condone this project.
+```
+
 **Note that for now I am only getting up-to-speed with GitHub hosting for my applications and will fix bugs and add new features as soon as I get settled in. It may be a while before there is documentation complete on here.**
 
 I am not associated with Microsoft in any way, shape, or form. I just thought this application (my App Launcher for Office) would be useful to people. I have checked online for application launchers for Office to see if anyone else had already made one but I didn't find any except for a general-purpose launcher which looked kinda slow to use. Don't get me wrong, it looks nice, it's just not something I would use.
