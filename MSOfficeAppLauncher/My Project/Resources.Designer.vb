@@ -111,7 +111,29 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to 2016-08-02T19:09:54
+        '''  Looks up a localized string similar to applauncher-icons
+        '''By Drew Naylor. Licensed under CC BY 4.0.
+        '''Version 3.0
+        '''
+        '''
+        '''The applauncher-icons project provides most of the icons used in UXL Launcher, with the exception of some icons. These include, but are not limited to, the UXL Launcher logo and the About window banner.
+        '''
+        '''
+        '''Link to applauncher-icons project repository:
+        '''https://github.com/DrewNaylor/applauncher-icons
+        '''
+        '''
+        '''Link to applauncher-icons version 3.0 GitHub Releases page:
+        '''https://github.com/DrewNaylor/applauncher-icons/releases/tag/v3. [rest of string was truncated]&quot;;.
+        '''</summary>
+        Public ReadOnly Property applauncher_icons_info_TXT() As String
+            Get
+                Return ResourceManager.GetString("applauncher_icons_info_TXT", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to 2020-10-07T02:05:59
         '''.
         '''</summary>
         Public ReadOnly Property BuildDate() As String

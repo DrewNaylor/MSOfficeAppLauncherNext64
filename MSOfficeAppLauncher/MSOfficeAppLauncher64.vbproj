@@ -189,6 +189,7 @@
     <Content Include="32x32.ico" />
     <Content Include="64x64.ico" />
     <Content Include="applauncher-icon.ico" />
+    <None Include="Resources\applauncher_icons_info_TXT.txt" />
     <None Include="Resources\BuildDate.txt" />
     <None Include="Resources\64x64.png" />
     <None Include="Resources\My initial.png" />

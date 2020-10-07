@@ -53,22 +53,25 @@ Public Class Main
 
 
         ' Put the text in the About box on launch.
-        TextBox1.Text = ("Drew's App Launcher for Microsoft Office 2010 ProPlus" & Environment.NewLine)
-        TextBox1.AppendText("Version 2.8.1 - Codename ''Resized Images''" & Environment.NewLine)
-        TextBox1.AppendText("Compiled for 64-bit systems with a 32-bit installation of Office 2010" & Environment.NewLine)
-        TextBox1.AppendText("" & Environment.NewLine)
-        TextBox1.AppendText("Copyright (C) 2013-2017 Drew Naylor" & Environment.NewLine)
-        TextBox1.AppendText("This app is designed to quickly and easily launch Office 2010 ProPlus software." & Environment.NewLine)
-        TextBox1.AppendText("It can also clear up space on your desktop." & Environment.NewLine)
-        TextBox1.AppendText("I am not intending on infringing on Microsoft's copyrights, so this is only a shortcut application." & Environment.NewLine)
-        TextBox1.AppendText("" & Environment.NewLine)
-        ' Note: In order for the date and time to be updated, you must tell Visual Studio to build the project BEFORE debugging it. In VS2010, you can right-click
-        ' on the toolbar at the top of the window and click "Build" to add the Build Toolbar.
-        TextBox1.AppendText("App compiled at UTC " + InsertBuildDate)
-        TextBox1.AppendText("" & Environment.NewLine)
-        TextBox1.AppendText("Copyright notice: Office, Microsoft Office, Word, Excel, PowerPoint, and all related words (by MSFT) are Copyright [a long time ago]-[sometime in the future] Microsoft Corp. All Rights Reserved for Microsoft's copyrights." & Environment.NewLine)
-        TextBox1.AppendText("" & Environment.NewLine)
-        TextBox1.AppendText("This application is licensed under the Gnu GPL v3+ and Drew's Modification Exception.")
+        ' Put the text in the About box on launch.
+        TextBox1.Text = ("Drew's App Launcher for Microsoft Office 2010 ProPlus" & vbCrLf &
+        "Version 2.8.1 - Codename ""Last Huzzah""" & vbCrLf &
+        "Compiled for 64-bit systems with a 32-bit installation of Office 2010" & vbCrLf &
+        "" & vbCrLf &
+        "Copyright (C) 2013-2017, 2020 Drew Naylor" & vbCrLf &
+        "This app is designed to quickly and easily launch Office 2010 ProPlus software." & vbCrLf &
+        "It can also clear up space on your desktop." & vbCrLf &
+        "I am not intending on infringing on Microsoft's copyrights, so this is only a shortcut application." & vbCrLf &
+        "" & vbCrLf &
+        "App compiled at UTC " + InsertBuildDate.ToString &
+        "" & vbCrLf &
+        "Copyright notice: Office, Microsoft Office, Word, Excel, PowerPoint, and all related words (by MSFT) are Copyright Microsoft Corp. All Rights Reserved for Microsoft's copyrights." & vbCrLf &
+        "" & vbCrLf &
+        "This application is licensed under the Gnu GPL v3+ and Drew's Modification Exception 1.1." & vbCrLf &
+        "" & vbCrLf &
+        "------------------------------------------------------" & vbCrLf &
+        "" & vbCrLf &
+        My.Resources.applauncher_icons_info_TXT.Replace(vbLf, vbCrLf))
 
         ' Put the text in the Notes box on launch.
         TextBox2.Text = ("--> This app was made for launching the default apps in Microsoft Office 2010 ProPlus. Not all Office 2010 app shortcuts are included." & Environment.NewLine)
