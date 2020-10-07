@@ -61,16 +61,6 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        '''</summary>
-        Public ReadOnly Property _64x64() As System.Drawing.Icon
-            Get
-                Dim obj As Object = ResourceManager.GetObject("_64x64", resourceCulture)
-                Return CType(obj,System.Drawing.Icon)
-            End Get
-        End Property
-        
-        '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Public ReadOnly Property AccessLargeSVG_3D() As System.Drawing.Bitmap
@@ -103,7 +93,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to 2020-10-07T02:44:19
+        '''  Looks up a localized string similar to 2020-10-07T02:51:32
         '''.
         '''</summary>
         Public ReadOnly Property BuildDate() As String
