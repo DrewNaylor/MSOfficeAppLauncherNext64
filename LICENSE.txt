@@ -708,13 +708,14 @@ Public License instead of this License.  But first, please read
 
 
 
-                         Drew's Modification Exception
+                        Drew's Modification Exception 1.1
                      An Exception for the Gnu GPL version 3+
-                          By Drew Naylor (Drew) 2015+.
+                      By Drew Naylor (Drew) 2015-2017, 2020.
 
 
 *Everyone is allowed to copy and distribute exact, verbatim copies of this
 Exception. If you are redistributing this Exception, you may not change anything.
+However, you may create Exceptions using this one as an example, if you wish.
 
 *This Exception is an additional permission under section 7 of the GNU
 General Public License, version 3 ("GPLv3"). It applies to a given file
@@ -783,11 +784,8 @@ application to not make it appear that I approve your modification.
 3. EXTRA INFORMATION.
 
 3.1 If you have any questions or comments or concerns with ANYTHING then
-you can contact me at <http://www.drewnayloremulation.weebly.com>.
-If you leave me your email address I will get back with you as soon as I
-have time. If you are concerned about privacy with your email address being sent
-over http instead of https, you can create a temporary address.
-Either way, I won't use your email for spam or other malicious purposes.
+you can contact me at <drewnaylor_apps -AT- outlook DOT com>.
+I will try to get back with you as soon as I have time.
 
 3.2 My GitHub account is located at <https://github.com/DrewNaylor>.
 
