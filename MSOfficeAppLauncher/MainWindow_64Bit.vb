@@ -181,7 +181,7 @@ Public Class Main
 
     ' Open my main website.
     Private Sub LinkLabel1_LinkClicked(sender As System.Object, e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
-        Process.Start("http://www.drewnayloremulation.weebly.com/")
+        Process.Start("https://drew-naylor.com/")
     End Sub
 
     ' Open my application website.
