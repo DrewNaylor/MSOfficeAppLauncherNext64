@@ -202,8 +202,6 @@
     <None Include="Resources\BuildDate.txt" />
     <None Include="Resources\64x64.png" />
     <None Include="Resources\My initial Transparent 64by64.png" />
-    <None Include="Resources\64x64.ico" />
-    <None Include="Resources\applauncher-icon-old.ico" />
     <None Include="Resources\Language Settings.png" />
   </ItemGroup>
   <ItemGroup>
