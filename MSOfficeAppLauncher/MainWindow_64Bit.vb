@@ -78,7 +78,7 @@ Public Class Main
         TextBox2.AppendText("" & Environment.NewLine)
         TextBox2.AppendText("--> Unless there are major issues in the future, 2.8.1 is the last official update to the 2.x branch. Please use UXL Launcher (3.x) instead if you can. UXL Launcher page: https://github.com/DrewNaylor/UXL-Launcher" & Environment.NewLine)
         TextBox2.AppendText("" & Environment.NewLine)
-        TextBox2.AppendText("--> If you didn't get a copy of the GPL v3 and Drew's Modification Exception in the download, you can grab a copy of it from the link below which says, ''Visit the GitHub Repo...'' Scroll down on that page and open the file that's called LICENSE.")
+        TextBox2.AppendText("--> If you didn't get a copy of the GPL v3 and Drew's Modification Exception 1.1 in the download, you can grab a copy of it from the link below which says, ""Visit the GitHub Repo..."" Scroll down on that page and open the file that's called LICENSE.")
     End Sub
 
 #Region "Applications to launch."
