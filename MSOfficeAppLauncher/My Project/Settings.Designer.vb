@@ -68,18 +68,6 @@ Namespace My
         
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("C")>  _
-        Public Property defaultOfficeDriveLocation() As String
-            Get
-                Return CType(Me("defaultOfficeDriveLocation"),String)
-            End Get
-            Set
-                Me("defaultOfficeDriveLocation") = value
-            End Set
-        End Property
-        
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
         Public Property deprecatedChangelogDisplayMode() As Boolean
             Get
