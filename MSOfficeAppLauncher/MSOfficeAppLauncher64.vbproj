@@ -185,10 +185,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="128x128.ico" />
-    <Content Include="32x32.ico" />
     <Content Include="64x64.ico" />
-    <Content Include="applauncher-icon.ico" />
     <None Include="Resources\Clip Organizer-75x64.png" />
     <None Include="Resources\picture manager-64x64.png" />
     <None Include="Resources\Query-64x64.png" />
@@ -204,12 +201,8 @@
     <None Include="Resources\applauncher_icons_info_TXT.txt" />
     <None Include="Resources\BuildDate.txt" />
     <None Include="Resources\64x64.png" />
-    <None Include="Resources\My initial.png" />
-    <None Include="Resources\My initial Transparent.png" />
     <None Include="Resources\My initial Transparent 64by64.png" />
-    <None Include="Resources\128x128.ico" />
     <None Include="Resources\64x64.ico" />
-    <None Include="Resources\32x32.ico" />
     <None Include="Resources\applauncher-icon-old.ico" />
     <None Include="Resources\Language Settings.png" />
   </ItemGroup>

@@ -63,26 +63,6 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         '''</summary>
-        Public ReadOnly Property _128x128() As System.Drawing.Icon
-            Get
-                Dim obj As Object = ResourceManager.GetObject("_128x128", resourceCulture)
-                Return CType(obj,System.Drawing.Icon)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        '''</summary>
-        Public ReadOnly Property _32x32() As System.Drawing.Icon
-            Get
-                Dim obj As Object = ResourceManager.GetObject("_32x32", resourceCulture)
-                Return CType(obj,System.Drawing.Icon)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        '''</summary>
         Public ReadOnly Property _64x64() As System.Drawing.Icon
             Get
                 Dim obj As Object = ResourceManager.GetObject("_64x64", resourceCulture)
@@ -97,16 +77,6 @@ Namespace My.Resources
             Get
                 Dim obj As Object = ResourceManager.GetObject("AccessLargeSVG_3D", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        '''</summary>
-        Public ReadOnly Property applauncher_icon_old() As System.Drawing.Icon
-            Get
-                Dim obj As Object = ResourceManager.GetObject("applauncher_icon_old", resourceCulture)
-                Return CType(obj,System.Drawing.Icon)
             End Get
         End Property
         
@@ -133,7 +103,7 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to 2020-10-07T02:28:43
+        '''  Looks up a localized string similar to 2020-10-07T02:44:19
         '''.
         '''</summary>
         Public ReadOnly Property BuildDate() As String
@@ -178,26 +148,6 @@ Namespace My.Resources
         Public ReadOnly Property Language_Settings() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Language_Settings", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Public ReadOnly Property My_initial() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("My_initial", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Public ReadOnly Property My_initial_Transparent() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("My_initial_Transparent", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
