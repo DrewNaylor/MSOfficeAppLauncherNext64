@@ -1,7 +1,7 @@
 This application is licensed under the Gnu GPL version 3+ AND Drew's
-Modification Exception.
+Modification Exception 1.1.
 
-"Drew's Modification Exception" begins around line 700.
+"Drew's Modification Exception 1.1" begins around line 700.
 
 
 
