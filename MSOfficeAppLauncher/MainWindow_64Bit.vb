@@ -35,15 +35,21 @@ Public Class Main
     ' on the toolbar at the top of the window and click "Build" to add the Build Toolbar.
     Dim InsertBuildDate As String = My.Resources.BuildDate
 
-    Private Sub Main_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
-
-        ' Make sure My.Settings.officeDriveLocation has only one character in it.
+    Private Shared Sub CheckOfficeDriveLocationSettingLengthForSecurity()
+        ' We need to make sure there's only one character in the
+        ' officeDriveLocation setting for security purposes.
         If Not My.Settings.officeDriveLocation.Length = 1 Then
             My.Settings.officeDriveLocation = "C"
             My.Settings.Save()
             My.Settings.Reload()
         End If
+    End Sub
 
+    Private Sub Main_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
+
+        ' Make sure My.Settings.officeDriveLocation has only one character in it.
+        ' Moved to its own sub for easy re-use.
+        CheckOfficeDriveLocationSettingLengthForSecurity()
 
         ' Put the text in the About box on launch.
         TextBox1.Text = ("Drew's App Launcher for Microsoft Office 2010 ProPlus" & vbCrLf &
@@ -77,6 +83,13 @@ Public Class Main
 
     ' Catch-all error handler and launcher.
     Private Sub LaunchApp(ExeToLaunch As String, ExeFriendlyName As String)
+        ' Make sure the saved setting isn't something other than a drive letter.
+        ' We have to do this here as it's possible to modify the config file while
+        ' the Options window is open and close it with the Cancel button.
+        ' What happens then is the modified config file is loaded, which
+        ' could have something other than a drive letter in it.
+        CheckOfficeDriveLocationSettingLengthForSecurity()
+
         ' Do a try...catch like 3.x so there's a nice error message if it goes wrong.
         Try
             Process.Start(My.Settings.officeDriveLocation.ToString & ":\Program Files (x86)\Microsoft Office\Office14\" & ExeToLaunch.ToString)
