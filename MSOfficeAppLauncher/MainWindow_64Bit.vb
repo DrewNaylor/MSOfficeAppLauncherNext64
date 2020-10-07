@@ -31,6 +31,8 @@
 Public Class Main
 
     ' Create a string out of the BuildDate file.
+    ' Note: In order for the date and time to be updated, you must tell Visual Studio to build the project BEFORE debugging it. In VS2010, you can right-click
+    ' on the toolbar at the top of the window and click "Build" to add the Build Toolbar.
     Dim InsertBuildDate As String = My.Resources.BuildDate
 
     Private Sub Main_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
@@ -43,7 +45,6 @@ Public Class Main
         End If
 
 
-        ' Put the text in the About box on launch.
         ' Put the text in the About box on launch.
         TextBox1.Text = ("Drew's App Launcher for Microsoft Office 2010 ProPlus" & vbCrLf &
         "Version 2.8.1 - Codename ""Last Huzzah""" & vbCrLf &
