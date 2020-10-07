@@ -1,5 +1,5 @@
 ﻿'Drew's MS Office App Launcher (64-bit) - Launch Office Apps Quickly!
-'Copyright (C) 2013-2017  Drew Naylor
+'Copyright (C) 2013-2017, 2020  Drew Naylor
 'Microsoft Office is copyright Microsoft Corp.
 '(Note that the copyright years include the years left out by the hyphen.)
 '
@@ -14,8 +14,8 @@
 'If you modify Drew's App Launcher, you must remove branding materials
 'such as the "D" or "DN" logo from your version and replace it with something
 'different as well as the actual name of the application to differentiate
-'it from my original version. See "Drew's Modification Exception" for
-'the full text, as well as the GPL v3+.
+'it from my original version. See "Drew's Modification Exception 1.1"
+'in the file "LICENSE.txt" for the full text, as well as the GPL v3+.
 '
 'Drew's App Launcher is distributed in the hope that it will be useful,
 'but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -24,8 +24,8 @@
 '
 'You should have received a copy of the GNU General Public License
 'along with Drew's App Launcher.  If not, see <http://www.gnu.org/licenses/>.
-'If you did not recieve a copy of "Drew's Modification Exception,"
-'please visit <http://drews-apps.weebly.com/about>
+'If you did not recieve a copy of "Drew's Modification Exception 1.1",
+'please visit <https://github.com/DrewNaylor/MSOfficeAppLauncherNext32/blob/master/LICENSE.txt>
 
 
 Public Class Main

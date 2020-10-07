@@ -150,12 +150,6 @@
     <Compile Include="OptionsWindow64.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="WaitForRSSChangelog.designer.vb">
-      <DependentUpon>WaitForRSSChangelog.vb</DependentUpon>
-    </Compile>
-    <Compile Include="WaitForRSSChangelog.vb">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="HTML32BitVerHist.resx">
@@ -176,13 +170,9 @@
     <EmbeddedResource Include="OptionsWindow64.resx">
       <DependentUpon>OptionsWindow64.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="WaitForRSSChangelog.resx">
-      <DependentUpon>WaitForRSSChangelog.vb</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="MSOfficeAppLauncher_TemporaryKey.pfx" />
     <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
