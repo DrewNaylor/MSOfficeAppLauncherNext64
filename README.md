@@ -39,7 +39,7 @@ I am not associated with Microsoft in any way, shape, or form. I just thought th
 
 If you want general information about this project, be sure to check the wiki at the top of this page. It's the button that looks like an open book to the right of the "Pull Requests" tab. Otherwise, keep reading.
 
---
+---
 
 # Minimum Recommended Specifications
 The following specifications are the lowest that I recommended to run this software.
@@ -64,7 +64,7 @@ Ignore the Windows 10 message on that page, scroll down, and click the orange Do
 
 - Also note that I've never used this software on Vista, although it should work just fine.
 
---
+---
 
 # Software Required to Edit the Project
 
@@ -76,7 +76,7 @@ Ignore the Windows 10 message on that page, scroll down, and click the orange Do
 - Microsoft Office 2010 Professional (or Professional Plus [this app was made for the ProPlus version.]) If you don't have Office or don't want to install Office, you can actually use a collection of dummy files I made called "dummyOffice." They are made up of just a window that says "You have successfully launched the [app] dummy component. Click Ok to continue." I will soon release them but right now I am just getting everything up-to-speed on GitHub. I won't provide an actual installer for the dummy components as I don't want people messing up their installation of Office. Once it's released, only install dummyOffice if you know what you're doing!
 - Windows PowerShell. I set up a pre-build event which uses PowerShell to write the current date out to a text document. Note that if you're building from source code available before August 2, 2016, PowerShell is not required.
 
---
+---
 
 # How to Compile the Project Yourself
 
@@ -88,7 +88,7 @@ In order to compile this project yourself, follow these steps:
 4. Fourth, insert a space after the <code>MSBuild.exe</code> line inside your Command Prompt, then drag that <code>VBProj</code> file we found earlier into the Command Prompt.
 5. And finally, press the <code>Enter</code> or <code>Return</code> key on your keyboard to build the project! After it's complete, you'll find your compiled files in <code>MSOfficeAppLauncher\bin\Debug</code>. Simply double-click the file that says <code>MSOfficeAppLauncher64.exe</code> found within that folder and it will run. If you have trouble, please create a GitHub Issue pertaining to what you're having trouble with and either myself or someone else will assist when they get the chance.
 
---
+---
 
 # How to get Up and Running with the Files in this Repo
 
