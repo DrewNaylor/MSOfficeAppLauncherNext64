@@ -25,7 +25,7 @@
 'You should have received a copy of the GNU General Public License
 'along with Drew's App Launcher.  If not, see <http://www.gnu.org/licenses/>.
 'If you did not recieve a copy of "Drew's Modification Exception 1.1",
-'please visit <https://github.com/DrewNaylor/MSOfficeAppLauncherNext32/blob/master/LICENSE.txt>
+'please visit <https://github.com/DrewNaylor/MSOfficeAppLauncherNext64/blob/master/LICENSE.txt>
 
 
 
